@@ -1,0 +1,250 @@
+/* Grid items style */
+.productGrid__mainContainer{
+  padding: 24px 0px;
+}
+.Home__mainContainer{
+    background-image:url('/images/HomeMain.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius:10px;
+    margin-bottom: 70px;
+}
+.Home__mainContainer .mainContainer__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+  }
+.Home__mainContainer .mainContainer__heading{
+    color:white;
+    padding:0px 0px;
+    font-size: 46px !important;
+    text-align: center;
+    width: 100%;
+    font-family: "Bebas Neue Pro" !important;
+    font-style: normal !important;
+font-weight: bold !important;
+    /* width:60%; */
+  }
+  .Home__middleContainer{
+    /* background-image:url('/images/HomeImg2.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius:10px; */
+    background-color: rgb(0 0 0 / 60%);
+    /* padding: 40px 0px; */
+    border-radius:10px;
+}
+.Home__section1 {
+  margin-bottom: 70px;
+}
+.Home__section2{
+  margin-bottom: 70px;
+}
+.Home__section3 .middleContainer__box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+  }
+  .Home__section3 .middleContainer__heading{
+    color:white;
+    padding:0px 0px;
+    font-size: 46px !important;
+    text-align: center;
+    width: 100%;
+    font-family: "Bebas Neue Pro" !important;
+    font-style: normal !important;
+font-weight: bold !important;
+    /* width:60%; */
+  }
+  .homeSection2__left{
+    margin:10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D8213B;
+    height: 100%;
+    border-radius: 10px;
+    padding: 70px 42px;
+    min-height: 400px;
+    max-height: fit-content;
+    max-height: -webkit-fill-available;
+  }
+  .homeSection2__leftTitle{
+    color: white;
+    font-size: 50px !important;
+    font-style: normal;
+    padding: 0px 0px;
+    font-weight: bold !important;
+    line-height: 50px !important;
+    font-family: "Bebas Neue Pro" !important;
+  }
+  .homeSection2__leftTitle1{
+    margin-left: -54px !important;
+  }
+  .homeSection2__leftTitle2{
+    margin-bottom: 10px !important;
+  }
+  .homeSection2__leftBtn{
+    border: 1px solid #FFFFFF !important;
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    border-radius: 25px !important;
+    padding: 7px 38px !important;
+    margin-top: 15px !important;
+    margin-right: 20px !important;
+  }
+  .homeSection2__leftBtn:hover{
+    border: 1px solid #FFFFFF !important;
+    background-color: #D8213B !important;
+    color: #FFFFFF !important;
+  }
+  .Home__section3{
+   
+    background-image:url('/images/HomeImg2.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius:10px;
+    margin-bottom: 70px !important;
+  }
+
+ .Home__section4 .section4__Heading{
+    color: #000000 !important;
+    font-size: 34px !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    line-height: 41px !important;
+    text-transform: uppercase !important;
+    font-family: "Bebas Neue Pro" !important;
+  }
+  .homeSection2__leftBox{
+    padding-right: 20px !important;
+  }
+  .productGrid__HeadingContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px !important;
+  }
+  .productGrid__Heading{
+    color: #000000 !important;
+    font-weight: normal !important;
+   font-family: "Bebas Neue Pro" !important;
+    font-size: 34px !important;
+    line-height: 41px !important;
+    text-transform: uppercase !important ;
+    font-style: normal !important;
+    
+  }
+  .productGrid__HeadingBtn{
+    border: 1px solid !important;
+    height: 20px !important;
+    padding: 15px 20px !important;
+    border-radius: 25px !important;
+    margin-right:0px !important;
+    background-color:#FFFFFF !important;
+    color:#000000 !important;
+    text-transform: capitalize !important;
+  }
+  
+  .productGrid__HeadingBtn:hover{
+    background-color:#D8213B !important;
+    color:#FFFFFF !important;
+    border:1px solid #D8213B !important;
+  }
+@media screen and (min-width: 600px) {
+  .Home__mainContainer .mainContainer__heading{
+        color:white;
+        text-align: left;
+         font-size: 80px !important;
+         line-height: 76px !important;
+        /* width:60%; */
+      }
+      .Home__mainContainer  .mainContainer__box{
+        margin-left: 100px
+      }
+      .Home__section3  .middleContainer__heading{
+        color:white;
+        text-align: left;
+         font-size: 80px !important;
+        
+        /* width:60%; */
+      }
+      .Home__section3  .middleContainer__box{
+        margin-left: 130px
+      }
+
+    .Home__section4  .section4__Heading{
+        
+        font-size: 34px;
+      
+      }
+      
+     /* .Home__section4 .CatalogGrid__GridItem-lw06dl-1{
+        max-width: 20% !important;
+      } */
+  }
+  
+
+  @media screen and (min-width: 1400px) {
+    .Home__mainContainer  .mainContainer__heading{
+        color:white;
+        padding:0px 0px;
+        text-align: left;
+        font-size: 80px !important;
+        
+        /* width:60%; */
+      }
+      .Home__mainContainer  .mainContainer__box{
+        display: flex;
+        justify-content: center;
+        margin-left: 130px
+      }
+      .Home__section3  .middleContainer__heading{
+        color:white;
+        padding:0px 0px;
+        text-align: left;
+        font-size: 80px !important;
+        
+        /* width:60%; */
+      }
+     .Home__section3 .middleContainer__box{
+        display: flex;
+        justify-content: center;
+        margin-left: 130px
+      }
+
+     .Home__section4 .section4__Heading{
+        
+        font-size: 54px;
+      
+      }
+      .homeSection2__leftTitle{
+        
+        font-size: 50px !important;
+        
+      }
+      .Home__section2 .CatalogGrid__GridItem-lw06dl-1{
+        min-width: 33.33% !important;
+      }
+      /* .Home__section1 .CatalogGrid__GridItem-lw06dl-1{
+        max-width: 20% !important;
+      }
+      .Home__section4 .CatalogGrid__GridItem-lw06dl-1{
+        max-width: 20% !important;
+      } */
+  }
+  .center-flex{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25px;
+  }
+  .mb-15{
+    margin-bottom: 30px;
+  }

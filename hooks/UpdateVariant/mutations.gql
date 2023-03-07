@@ -1,0 +1,20 @@
+mutation updateVariantMutation($input: UpdateProductVariantInput!) {
+  updateProductVariant(input: $input) {
+    variant {
+      _id
+      parentId
+      ancestorId
+      media {
+  URLs {
+    large
+medium
+original
+small
+thumbnail
+  }
+  priority
+}
+     
+    }
+  }
+}

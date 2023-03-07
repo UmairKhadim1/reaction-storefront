@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basic snapshot 1`] = `
+.c1 {
+  padding-bottom: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0;
+}
+
+.c0 {
+  width: 100%;
+}
+
+.c0 fieldset {
+  border-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <fieldset>
+      <div
+        className="c1"
+      >
+        SelectableItem({"detail":"$12.00","isChecked":false,"isLeftAligned":false,"isReadOnly":false,"label":"Priority shipping","value":"123"})
+      </div>
+      <div
+        className="c1"
+      >
+        SelectableItem({"detail":"$5.00","isChecked":false,"isLeftAligned":false,"isReadOnly":false,"label":"Expedited shipping","value":"333"})
+      </div>
+      <div
+        className="c1"
+      >
+        SelectableItem({"detail":"$0.00","isChecked":false,"isLeftAligned":false,"isReadOnly":false,"label":"Free shipping","value":"2455"})
+      </div>
+    </fieldset>
+  </div>
+</div>
+`;

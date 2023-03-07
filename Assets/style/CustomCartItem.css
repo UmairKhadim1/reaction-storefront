@@ -1,0 +1,134 @@
+.customCartList__item{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid rgba(204,204,204,0.5);
+}
+.customCartList__mainTitle{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 24px !important;
+line-height: 40px !important;
+text-transform: uppercase !important;
+color: #000000 !important;
+padding: 20px 25px 0px;
+/* margin: 0px 25px !important; */
+width: 530px;
+border-bottom: 1px solid rgba(204,204,204,0.5);
+width: 100%;
+}
+.customCartList__removeIconBox{
+    position: absolute;
+    bottom: 6px;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+border: 1px solid #CCCCCC;
+border-radius: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+.customCartList__actionArea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quantity__container{
+    display: flex;
+}
+.customCartList__imagebox{
+    height: 120px;
+    width: 120px;
+    background: #ffffff;
+border-radius: 10px;
+position: relative;
+}
+.customCartList__image{
+    
+    border: 1px solid #f2f2f2;
+    height: 120px;
+    width: 120px;
+    background:#ffffff;
+border-radius: 10px;
+object-fit: contain;
+}
+.customCartList__rightContainer{
+    padding: 0px 0px 0px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* min-width: 400px */
+    width: 100%;
+
+}
+.cart__summary .CartSummary__Td-sc-1s88t8e-3{
+    padding-bottom: 0px !important;
+}
+.checkout__container .CheckoutActions__PlaceOrderButtonContainer-sc-1rn7obm-2{
+    margin: 0px 0px !important;
+}
+.customCartList__title
+{
+    font-family: "Bebas Neue Pro"  !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 20px !important;
+line-height: 19px !important;
+text-transform: capitalize;
+color: #3B3B3B !important;
+
+}
+.customCartList__description
+{
+    font-family: "Karla";
+font-style: normal !important;
+font-weight: 300 !important;
+font-size: 16px !important;
+line-height: 14px !important;
+text-transform: capitalize !important;
+
+color: #202020 !important;
+}
+.quantity__Box{
+     width: 32px;
+     height: 32px;
+     background: #FFFFFF;
+     border: 1px solid #CCCCCC;
+     border-radius: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+.quantity__value{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+}
+.customCartItemprice span{
+    font-family: "Karla";
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+}
+@media screen and (min-width: 1400px) and (max-width:1441px){
+    
+.checkout__flexContainerRight {
+    padding: 50px 0px !important;
+}
+.checkout__flexContainerLe{
+    margin: 0px !important;
+}
+
+}

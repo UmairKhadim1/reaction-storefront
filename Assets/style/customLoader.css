@@ -1,0 +1,16 @@
+.customLoader{
+    background: #d8213b;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 2px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customLoader__animation{
+    width: 20%;
+}

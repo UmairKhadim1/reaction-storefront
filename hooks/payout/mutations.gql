@@ -1,0 +1,8 @@
+mutation updatePayoutMutation($input: accountBookInput!) {
+  updateAccountpayBookEntry(input: $input) {
+  AccountTitle
+  AccountNo
+  swiftCode
+  isActive
+  }
+}

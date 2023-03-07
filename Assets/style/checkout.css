@@ -1,0 +1,245 @@
+.ErrorsBlock__Error-sc-2zxcue-1{
+    margin-left: 14px;
+}
+.checkout__inventoryError{
+    font-family: "karla";
+    font-size: 10px;
+    color: #D8213B;
+    font-weight: normal;
+}
+.ErrorsBlock__Error-sc-2zxcue-1:first-letter{
+    text-transform: capitalize
+  }
+.Field__StyledLabel-qlv3w9-1 {
+    margin-left: 14px !important;
+}
+.checkout__container{
+    background-color: #e5e5e524;
+    padding: 24px 0px;
+
+}
+.checkout__flexContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* padding: 50px 40px; */
+    border-radius: 10px;
+    
+}
+.checkout__flexContainerLeft{
+    margin: 0px 10px 0px 0px;
+}
+.checkout__flexContainer .PhoneNumberInput__InputWrapper-j29opk-0{
+    border-radius: 25px;
+}
+.checkout__flexContainerLeft .CheckoutActions__Action-sc-1rn7obm-0{
+    padding: 50px 40px;
+    border-bottom: 30px solid #e5e5e524;
+    border-radius: 10px !important;
+}
+.checkout__flexContainerRight{
+    margin: 0px 0px;
+    padding: 50px 0px;
+    max-width: 559px ;
+}
+.checkout__mainHeading{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 40px !important;
+
+text-transform: uppercase !important;
+
+color: #000000 !important;
+margin: 30px 0px !important;
+}
+.checkout__container .CartSummary__Table{
+    width: 85%;
+    border-spacing: 0px;
+    background-color: transparent;
+    padding: 0px 20px;
+}
+.checkout__summary
+{
+    max-width: 559px !important;
+    margin-left: 13px !important;
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+    /* border-top: 1px solid rgba(204,204,204,0.5); */
+}
+
+.CheckoutActionIncomplete__CheckoutActionIncompleteContainer-sc-1vgphsw-0::before{
+    content: url('/icons/checkoutGreyIcon.png');
+    position: relative;
+    left: -10px;
+    /* width: 10px;
+    height: 10px; */
+}
+.CheckoutActionComplete__ActionTitle-sc-115d6h5-1::before{
+    content: url('/icons/checkoutGreyIcon.png');
+    position: relative;
+    left: -10px;
+    bottom: 4px;
+}
+/* Red checkout icon */
+.no-decoration{text-decoration: none;} .red{color:#D8213B}
+.no-decoration:hover{text-decoration: underline;}
+.gfYtDv{
+    
+    font-family: "Bebas Neue Pro" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 22px !important;
+    line-height: 40px !important;
+    text-transform: uppercase !important;
+    color: #000000 !important;
+}
+.gfYtDv::before{
+    content: url('/icons/checkoutIcon.png');
+    position: relative;
+    left: -10px;
+}
+.ShippingAddressCheckoutAction__Title-sc-10bmvip-0::before{
+    content: url('/icons/checkoutIcon.png');
+    position: relative;
+    left: -10px;
+}
+.FulfillmentOptionsCheckoutAction__Title-sc-1539sll-0::before{
+    content: url('/icons/checkoutIcon.png');
+    position: relative;
+    left: -10px;
+}
+.PaymentsCheckoutAction__Title-sc-6nornv-0::before{
+    content: url('/icons/checkoutIcon.png');
+    position: relative;
+    left: -10px;
+}
+.FinalReviewCheckoutAction__Title-x3j0ce-0::before{
+    content: url('/icons/checkoutIcon.png');
+    position: relative;
+    left: -10px;
+}
+
+
+.ShippingAddressCheckoutAction__Title-sc-10bmvip-0{
+    font-family: "Bebas Neue Pro" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 22px !important;
+    line-height: 40px !important;
+    text-transform: uppercase !important;
+    color: #000000 !important;
+}
+.FulfillmentOptionsCheckoutAction__Title-sc-1539sll-0{
+    font-family: "Bebas Neue Pro" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 22px !important;
+    line-height: 40px !important;
+    text-transform: uppercase !important;
+    color: #000000 !important;
+}
+.PaymentsCheckoutAction__Title-sc-6nornv-0{
+    font-family: "Bebas Neue Pro" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 22px !important;
+    line-height: 40px !important;
+    text-transform: uppercase !important;
+    color: #000000 !important;
+}
+.FinalReviewCheckoutAction__Title-x3j0ce-0{
+    font-family: "Bebas Neue Pro" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 22px !important;
+    line-height: 40px !important;
+    text-transform: uppercase !important;
+    color: #000000 !important;
+}
+.checkout__containerBox{
+    padding: 12px 0px;
+}
+.checkout__containerBox .TextInput__InputWrapper-sc-9jjo1u-0{
+    border-radius: 25px !important;
+}
+.checkout__containerBox .TextInput__InputWrapper-sc-9jjo1u-0:hover{
+    border-radius: 25px !important;
+    border: 1px solid #cccccc;
+}
+.checkout__containerBox .css-1f25rmc-control{
+    border-radius: 25px !important;
+}
+.checkout__containerBox .css-1f25rmc-control:active{
+    border: 1px solid #cccccc;
+}
+/* checkout summary Card style */
+.checkout__summaryInfoMsg{
+    font-family: "Karla";
+font-style: normal !important;
+font-weight: 300 !important;
+font-size: 12px !important;
+line-height: 14px !important;
+text-transform: capitalize !important;
+
+color: #202020 !important;
+}
+.checkout__placeOrderBtn{
+    border: 1px solid #8C8C8C !important;
+    width: 100%;
+    text-align: center;
+    border-radius: 25px !important;
+    margin: 10px 0px !important;
+}
+.checkout__placeOrderBtn:hover{
+    background-color: #D8213B !important;
+    color: #FFFFFF;
+}
+.checkout__containerBox{
+    position: relative;
+}
+.checkout__containerBox .CheckoutActions__PlaceOrderButtonContainer-sc-1rn7obm-2 .Button__ButtonDiv-sc-1r73v88-0::after {
+    content: "Continue";
+}
+.checkout__container .CheckoutActions__PlaceOrderButtonContainer-sc-1rn7obm-2 .Button__ButtonDiv-sc-1r73v88-0 div:first-child{
+    display: none;
+}
+
+@media screen and (min-width: 1400px) {
+    .checkout__flexContainerRight{
+        /* margin: 0px 15px; */
+        padding: 50px 40px;
+    }
+    .checkout__flexContainerLeft{
+        margin: 0px 60px;
+    }
+    
+}
+#country_AddressForm_10 > div,
+#country_AddressForm_9 > div,
+#country_AddressForm_8 > div,
+#country_AddressForm_7 > div,
+#country_AddressForm_6 > div,
+#country_AddressForm_5 > div,
+#country_AddressForm_4 > div,
+#country_AddressForm_3 > div,
+#country_AddressForm_2 > div,
+#country_AddressForm_1 > div, .iKOUPM>div>div {
+    border-radius: 40px;
+}
+
+  /* Portrait */
+  @media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .makeStyles-cartSummary-131,.customCartList__rightContainer {
+        padding-right: 0rem !important;
+    }
+    .customCartList__item{
+        padding: 10px !important;
+    }
+    
+  }

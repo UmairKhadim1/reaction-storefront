@@ -1,0 +1,480 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with help text 1`] = `
+.c0 {
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 15px;
+}
+
+.c3 {
+  -webkit-font-smoothing: antialiased;
+  color: #505558;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1.25;
+  display: block;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 10px;
+}
+
+.c1 {
+  -webkit-font-smoothing: antialiased;
+  background-color: #fafafa;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #3c3c3c;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  outline: none;
+  padding: 8px 10px;
+  position: relative;
+}
+
+.c2 {
+  background-color: inherit;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  outline: none;
+}
+
+.c2::-webkit-input-placeholder {
+  color: #cccccc;
+}
+
+.c2::-moz-placeholder {
+  color: #cccccc;
+}
+
+.c2:-ms-input-placeholder {
+  color: #cccccc;
+}
+
+.c2::placeholder {
+  color: #cccccc;
+}
+
+.c2:-moz-read-only {
+  color: #bfbfbf;
+}
+
+.c2:read-only {
+  color: #bfbfbf;
+}
+
+<div
+  className="c0"
+>
+  <p>
+    Text above
+  </p>
+  <div
+    className="c1"
+    value=""
+  >
+    <input
+      className="c2"
+      name="test"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyPress={[Function]}
+      readOnly={false}
+      type="text"
+      value=""
+    />
+  </div>
+  <p>
+    Text below
+  </p>
+  <span
+    className="c3"
+  >
+    Foo
+  </span>
+</div>
+`;
+
+exports[`renders with label 1`] = `
+.c0 {
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 15px;
+}
+
+.c1 {
+  -webkit-font-smoothing: antialiased;
+  color: #505558;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1.25;
+  color: #737373;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+.c2 {
+  -webkit-font-smoothing: antialiased;
+  background-color: #fafafa;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #3c3c3c;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  outline: none;
+  padding: 8px 10px;
+  position: relative;
+}
+
+.c3 {
+  background-color: inherit;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  outline: none;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #cccccc;
+}
+
+.c3::-moz-placeholder {
+  color: #cccccc;
+}
+
+.c3:-ms-input-placeholder {
+  color: #cccccc;
+}
+
+.c3::placeholder {
+  color: #cccccc;
+}
+
+.c3:-moz-read-only {
+  color: #bfbfbf;
+}
+
+.c3:read-only {
+  color: #bfbfbf;
+}
+
+<div
+  className="c0"
+>
+  <label
+    className="c1"
+  >
+    Foo
+  </label>
+  <p>
+    Text above
+  </p>
+  <div
+    className="c2"
+    value=""
+  >
+    <input
+      className="c3"
+      name="test"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyPress={[Function]}
+      readOnly={false}
+      type="text"
+      value=""
+    />
+  </div>
+  <p>
+    Text below
+  </p>
+</div>
+`;
+
+exports[`renders with no help text 1`] = `
+.c0 {
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 15px;
+}
+
+.c1 {
+  -webkit-font-smoothing: antialiased;
+  background-color: #fafafa;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #3c3c3c;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  outline: none;
+  padding: 8px 10px;
+  position: relative;
+}
+
+.c2 {
+  background-color: inherit;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  outline: none;
+}
+
+.c2::-webkit-input-placeholder {
+  color: #cccccc;
+}
+
+.c2::-moz-placeholder {
+  color: #cccccc;
+}
+
+.c2:-ms-input-placeholder {
+  color: #cccccc;
+}
+
+.c2::placeholder {
+  color: #cccccc;
+}
+
+.c2:-moz-read-only {
+  color: #bfbfbf;
+}
+
+.c2:read-only {
+  color: #bfbfbf;
+}
+
+<div
+  className="c0"
+>
+  <p>
+    Text above
+  </p>
+  <div
+    className="c1"
+    value=""
+  >
+    <input
+      className="c2"
+      name="test"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyPress={[Function]}
+      readOnly={false}
+      type="text"
+      value=""
+    />
+  </div>
+  <p>
+    Text below
+  </p>
+</div>
+`;
+
+exports[`renders with no label 1`] = `
+.c0 {
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 15px;
+}
+
+.c1 {
+  -webkit-font-smoothing: antialiased;
+  background-color: #fafafa;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #3c3c3c;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  outline: none;
+  padding: 8px 10px;
+  position: relative;
+}
+
+.c2 {
+  background-color: inherit;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  outline: none;
+}
+
+.c2::-webkit-input-placeholder {
+  color: #cccccc;
+}
+
+.c2::-moz-placeholder {
+  color: #cccccc;
+}
+
+.c2:-ms-input-placeholder {
+  color: #cccccc;
+}
+
+.c2::placeholder {
+  color: #cccccc;
+}
+
+.c2:-moz-read-only {
+  color: #bfbfbf;
+}
+
+.c2:read-only {
+  color: #bfbfbf;
+}
+
+<div
+  className="c0"
+>
+  <p>
+    Text above
+  </p>
+  <div
+    className="c1"
+    value=""
+  >
+    <input
+      className="c2"
+      name="test"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyPress={[Function]}
+      readOnly={false}
+      type="text"
+      value=""
+    />
+  </div>
+  <p>
+    Text below
+  </p>
+</div>
+`;
+
+exports[`renders with other props 1`] = `
+.c0 {
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 15px;
+}
+
+.c1 {
+  -webkit-font-smoothing: antialiased;
+  color: #505558;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1.25;
+  color: #737373;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+<div
+  className="className c0"
+>
+  <label
+    className="labelClassName c1"
+    htmlFor="labelFor"
+  >
+    Foo
+  </label>
+  <p>
+    Blah
+  </p>
+</div>
+`;

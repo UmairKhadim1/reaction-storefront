@@ -1,0 +1,109 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4121432, 2021-07-05T14:22:33-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: BebasNeuePro-SmEThIt by Dharma Type
+ * URL: https://www.myfonts.com/fonts/flat-it/bebas-neue-pro/semi-exp-thin-italic/
+ * 
+ * Webfont: BebasNeuePro-SmEBkIt by Dharma Type
+ * URL: https://www.myfonts.com/fonts/flat-it/bebas-neue-pro/semi-exp-book-italic/
+ * 
+ * Webfont: BebasNeuePro-SmEMdIt by Dharma Type
+ * URL: https://www.myfonts.com/fonts/flat-it/bebas-neue-pro/semi-exp-middle-italic/
+ * 
+ * Webfont: BebasNeuePro-SmEEb by Dharma Type
+ * URL: https://www.myfonts.com/fonts/flat-it/bebas-neue-pro/semi-exp-extra-bold/
+ * 
+ * Webfont: BebasNeuePro-SmEIt by Dharma Type
+ * URL: https://www.myfonts.com/fonts/flat-it/bebas-neue-pro/semi-exp-italic/
+ * 
+ * Webfont: BebasNeuePro-SmEEbIt by Dharma Type
+ * URL: https://www.myfonts.com/fonts/flat-it/bebas-neue-pro/semi-exp-extra-bold-italic/
+ * 
+ * Webfont: BebasNeuePro-SmETh by Dharma Type
+ * URL: https://www.myfonts.com/fonts/flat-it/bebas-neue-pro/semi-exp-thin/
+ * 
+ * Webfont: BebasNeuePro-SmEBd by Dharma Type
+ * URL: https://www.myfonts.com/fonts/flat-it/bebas-neue-pro/semi-exp-bold/
+ * 
+ * Webfont: BebasNeuePro-SmEBdIt by Dharma Type
+ * URL: https://www.myfonts.com/fonts/flat-it/bebas-neue-pro/semi-exp-bold-italic/
+ * 
+ * Webfont: BebasNeuePro-SmEMd by Dharma Type
+ * URL: https://www.myfonts.com/fonts/flat-it/bebas-neue-pro/semi-exp-middle/
+ * 
+ * Webfont: BebasNeuePro-SmELg by Dharma Type
+ * URL: https://www.myfonts.com/fonts/flat-it/bebas-neue-pro/semi-exp-light/
+ * 
+ * Webfont: BebasNeuePro-SmERg by Dharma Type
+ * URL: https://www.myfonts.com/fonts/flat-it/bebas-neue-pro/semi-exp-regular/
+ * 
+ * 
+ * Webfonts copyright: Copyright &amp;#x00A9; 2019 by Ryoichi Tsunekawa. All rights reserved.
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3ee358");
+@font-face {
+   font-family: "Bebas Neue Pro1"; 
+  src: url('webFonts/BebasNeueProSmEBd/font.woff2') format('woff2'), url('webFonts/BebasNeueProSmEBd/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BebasNeuePro-SmEBkIt";
+  /* font-family: "Bebas Neue Pro"; */
+  src: url('webFonts/BebasNeueProSmEBkIt/font.woff2') format('woff2'), url('webFonts/BebasNeueProSmEBkIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BebasNeuePro-SmEMd";
+  src: url('webFonts/BebasNeueProSmEMd/font.woff2') format('woff2'), url('webFonts/BebasNeueProSmEMd/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Bebas Neue Pro";
+  src: url('webFonts/BebasNeueProSmERg/font.woff2') format('woff2'), url('webFonts/BebasNeueProSmERg/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BebasNeuePro-SmEBdIt";
+  src: url('webFonts/BebasNeueProSmEBdIt/font.woff2') format('woff2'), url('webFonts/BebasNeueProSmEBdIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BebasNeuePro-SmEMdIt";
+  src: url('webFonts/BebasNeueProSmEMdIt/font.woff2') format('woff2'), url('webFonts/BebasNeueProSmEMdIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BebasNeuePro-SmEEbIt";
+  src: url('webFonts/BebasNeueProSmEEbIt/font.woff2') format('woff2'), url('webFonts/BebasNeueProSmEEbIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BebasNeuePro-SmEEb";
+  src: url('webFonts/BebasNeueProSmEEb/font.woff2') format('woff2'), url('webFonts/BebasNeueProSmEEb/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BebasNeuePro-SmEIt";
+  src: url('webFonts/BebasNeueProSmEIt/font.woff2') format('woff2'), url('webFonts/BebasNeueProSmEIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BebasNeuePro-SmETh";
+  src: url('webFonts/BebasNeueProSmETh/font.woff2') format('woff2'), url('webFonts/BebasNeueProSmETh/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BebasNeuePro-SmELg";
+  src: url('webFonts/BebasNeueProSmELg/font.woff2') format('woff2'), url('webFonts/BebasNeueProSmELg/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BebasNeuePro-SmEThIt";
+  src: url('webFonts/BebasNeueProSmEThIt/font.woff2') format('woff2'), url('webFonts/BebasNeueProSmEThIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BebasNeuePro-SmEBd";
+  src: url('webFonts/BebasNeueProSmEBd/font.woff2') format('woff2'), url('webFonts/BebasNeueProSmEBd/font.woff') format('woff');
+}
+

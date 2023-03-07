@@ -1,0 +1,3 @@
+mutation addShippingMethodMutation($input:AvailableFulfillmentMethodInput!) {
+  updateAvailableFulfillmentMethodEntry(input: $input) 
+}

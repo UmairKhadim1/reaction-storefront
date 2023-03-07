@@ -1,0 +1,5 @@
+mutation productVisibilityMutation($input: UpdateProductsVisibilityInput!) {
+  updateProductsVisibility(input: $input) {
+    updatedCount
+  }
+}

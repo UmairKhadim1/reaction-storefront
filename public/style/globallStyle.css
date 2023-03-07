@@ -1,0 +1,21 @@
+/* *{
+    font-family: 'Karla', sans-serif !important;
+}
+@font-face {
+    font-family: ProNeue;
+    src: url(../fonts/Bebas\ Neue\ Pro\ Bold.otf);
+  }
+.login__dialog>.MuiDialog-container>.MuiDialog-paper{
+    border-radius: 22px !important;
+    background-color: black !important;
+}
+.Container__MainMaxWidth{
+    padding: "0px 60px";
+}
+.cart__emptyMsgContainer{
+    width: 100%;
+}
+.cart__emptyMsgContainer .Button__ButtonDiv-sc-1r73v88-0{
+    background-color: #D8213B !important;
+    
+} */

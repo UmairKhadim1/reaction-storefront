@@ -1,0 +1,1229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Displays a summary of the current items in the cart 1`] = `
+.c0 {
+  width: 100%;
+  border-spacing: 0;
+  background-color: #fafafa;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 0;
+}
+
+.c1 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1;
+  text-align: left;
+}
+
+.c3 {
+  -webkit-font-smoothing: antialiased;
+  color: #b3b3b3;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1;
+  text-align: right;
+}
+
+.c4 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  border-top-color: #e6e6e6;
+  border-top-style: solid;
+  border-top-width: 0;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.c10 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  border-top-color: #e6e6e6;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.c5 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  text-align: right;
+}
+
+.c2 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1;
+}
+
+.c6 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  border-top-color: #e6e6e6;
+  border-top-style: solid;
+  border-top-width: 0;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.c7 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  padding-bottom: 16px;
+  text-align: right;
+}
+
+.c8 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  border-top-color: #e6e6e6;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.c9 {
+  text-align: right;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+.c11 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1;
+}
+
+<table
+  className="c0"
+>
+  <thead>
+    <tr>
+      <th
+        className="c1"
+      >
+        <span
+          className="c2"
+        >
+          Cart Summary
+        </span>
+      </th>
+      <th
+        className="c3"
+      >
+        3 items
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        className="c4"
+      >
+        Items
+        :
+      </td>
+      <td
+        className="c5 c4"
+      >
+        $246.22
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c4"
+      >
+        Shipping
+        :
+      </td>
+      <td
+        className="c5 c4"
+      >
+        3-5 Days
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c4"
+      >
+        Surcharges
+        :
+      </td>
+      <td
+        className="c5 c4"
+      >
+        -
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c6"
+      >
+        Tax
+        :
+      </td>
+      <td
+        className="c7 c4"
+      >
+        -
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c8"
+      >
+        Order total
+        :
+      </td>
+      <td
+        className="c9 c10"
+      >
+        <span
+          className="c11"
+        >
+          $300.424
+        </span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Displays a summary with FREE shipping 1`] = `
+.c0 {
+  width: 100%;
+  border-spacing: 0;
+  background-color: #fafafa;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 0;
+}
+
+.c1 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1;
+  text-align: left;
+}
+
+.c3 {
+  -webkit-font-smoothing: antialiased;
+  color: #b3b3b3;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1;
+  text-align: right;
+}
+
+.c4 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  border-top-color: #e6e6e6;
+  border-top-style: solid;
+  border-top-width: 0;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.c10 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  border-top-color: #e6e6e6;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.c5 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  text-align: right;
+}
+
+.c2 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1;
+}
+
+.c6 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  border-top-color: #e6e6e6;
+  border-top-style: solid;
+  border-top-width: 0;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.c7 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  padding-bottom: 16px;
+  text-align: right;
+}
+
+.c8 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  border-top-color: #e6e6e6;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.c9 {
+  text-align: right;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+.c11 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1;
+}
+
+<table
+  className="c0"
+>
+  <thead>
+    <tr>
+      <th
+        className="c1"
+      >
+        <span
+          className="c2"
+        >
+          Cart Summary
+        </span>
+      </th>
+      <th
+        className="c3"
+      >
+        3 items
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        className="c4"
+      >
+        Items
+        :
+      </td>
+      <td
+        className="c5 c4"
+      >
+        $246.22
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c4"
+      >
+        Shipping
+        :
+      </td>
+      <td
+        className="c5 c4"
+      >
+        FREE
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c4"
+      >
+        Surcharges
+        :
+      </td>
+      <td
+        className="c5 c4"
+      >
+        -
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c6"
+      >
+        Tax
+        :
+      </td>
+      <td
+        className="c7 c4"
+      >
+        -
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c8"
+      >
+        Order total
+        :
+      </td>
+      <td
+        className="c9 c10"
+      >
+        <span
+          className="c11"
+        >
+          $300.424
+        </span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Displays a summary with applied discount 1`] = `
+.c0 {
+  width: 100%;
+  border-spacing: 0;
+  background-color: #fafafa;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 0;
+}
+
+.c1 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1;
+  text-align: left;
+}
+
+.c3 {
+  -webkit-font-smoothing: antialiased;
+  color: #b3b3b3;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1;
+  text-align: right;
+}
+
+.c4 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  border-top-color: #e6e6e6;
+  border-top-style: solid;
+  border-top-width: 0;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.c11 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  border-top-color: #e6e6e6;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.c5 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  text-align: right;
+}
+
+.c2 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1;
+}
+
+.c6 {
+  -webkit-font-smoothing: antialiased;
+  color: #0db781;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+}
+
+.c7 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  border-top-color: #e6e6e6;
+  border-top-style: solid;
+  border-top-width: 0;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.c8 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  padding-bottom: 16px;
+  text-align: right;
+}
+
+.c9 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  border-top-color: #e6e6e6;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.c10 {
+  text-align: right;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+.c12 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1;
+}
+
+<table
+  className="c0"
+>
+  <thead>
+    <tr>
+      <th
+        className="c1"
+      >
+        <span
+          className="c2"
+        >
+          Cart Summary
+        </span>
+      </th>
+      <th
+        className="c3"
+      >
+        3 items
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        className="c4"
+      >
+        Items
+        :
+      </td>
+      <td
+        className="c5 c4"
+      >
+        $246.22
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c4"
+      >
+        Shipping
+        :
+      </td>
+      <td
+        className="c5 c4"
+      >
+        3-5 Days
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c4"
+      >
+        Promo code applied
+        :
+      </td>
+      <td
+        className="c5 c4"
+      >
+        <span
+          className="c6"
+        >
+          -$80.42
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c4"
+      >
+        Surcharges
+        :
+      </td>
+      <td
+        className="c5 c4"
+      >
+        -
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c7"
+      >
+        Tax
+        :
+      </td>
+      <td
+        className="c8 c4"
+      >
+        -
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c9"
+      >
+        Order total
+        :
+      </td>
+      <td
+        className="c10 c11"
+      >
+        <span
+          className="c12"
+        >
+          $300.424
+        </span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Displays a summary with calculated taxes 1`] = `
+.c0 {
+  width: 100%;
+  border-spacing: 0;
+  background-color: #fafafa;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 0;
+}
+
+.c1 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1;
+  text-align: left;
+}
+
+.c3 {
+  -webkit-font-smoothing: antialiased;
+  color: #b3b3b3;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1;
+  text-align: right;
+}
+
+.c4 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  border-top-color: #e6e6e6;
+  border-top-style: solid;
+  border-top-width: 0;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.c10 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  border-top-color: #e6e6e6;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.c5 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  text-align: right;
+}
+
+.c2 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1;
+}
+
+.c6 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  border-top-color: #e6e6e6;
+  border-top-style: solid;
+  border-top-width: 0;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.c7 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  padding-bottom: 16px;
+  text-align: right;
+}
+
+.c8 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1;
+  border-top-color: #e6e6e6;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.c9 {
+  text-align: right;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+.c11 {
+  -webkit-font-smoothing: antialiased;
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1;
+}
+
+<table
+  className="c0"
+>
+  <thead>
+    <tr>
+      <th
+        className="c1"
+      >
+        <span
+          className="c2"
+        >
+          Cart Summary
+        </span>
+      </th>
+      <th
+        className="c3"
+      >
+        3 items
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        className="c4"
+      >
+        Items
+        :
+      </td>
+      <td
+        className="c5 c4"
+      >
+        $246.22
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c4"
+      >
+        Shipping
+        :
+      </td>
+      <td
+        className="c5 c4"
+      >
+        3-5 Days
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c4"
+      >
+        Surcharges
+        :
+      </td>
+      <td
+        className="c5 c4"
+      >
+        -
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c6"
+      >
+        Tax
+        :
+      </td>
+      <td
+        className="c7 c4"
+      >
+        $24.88
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c8"
+      >
+        Order total
+        :
+      </td>
+      <td
+        className="c9 c10"
+      >
+        <span
+          className="c11"
+        >
+          $300.424
+        </span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

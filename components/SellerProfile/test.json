@@ -1,0 +1,91 @@
+{
+    "data": {
+        "testing": true,
+        "auth_company": "LoS",
+        "shipment": {
+            "label_size": "6x4",
+            "label_format": "pdf",
+            "generate_invoice": false,
+            "generate_packing_slip": false,
+            "courier": {
+                "global_product_code": "U",
+                "local_product_code": "U",
+                "friendly_service_name": "Test"
+            },
+            "extra_details": {
+                "channel_order_id": 22
+            },
+            "collection_date": "2021-10-18T16:30:49.054Z",
+            "reference": "my reference",
+            "reference_2": "my second reference",
+            "delivery_instructions": "Leave on the porch",
+            "shipping_charge": 2.42,
+            "ship_from": {
+                "name": "MN",
+                "phone": "01377337164",
+                "email": "foo@foo.com",
+                "company_name": "Fake Company",
+                "address_1": "unit 76",
+                "address_2": "warfield road",
+                "address_3": "",
+                "city": "Driffield",
+                "postcode": "YO25 9DJ",
+                "county": "",
+                "country_iso": "GB",
+                "company_id": "911-70-1234",
+                "tax_id": "911-70-1234",
+                "eori_id": "911-70-1234-000",
+                "ioss_number": "IM2760000711"
+            },
+            "ship_to": {
+                "name": "Laura Maura",
+                "phone": "466546346546",
+                "email": "support@buyer.com",
+                "company_name": "",
+                "address_1": "Ekeredsvaegen 132",
+                "address_2": "",
+                "address_3": "",
+                "city": "Lerum",
+                "county": "",
+                "postcode": "443 50",
+                "country_iso": "SE"
+            },
+            "parcels": [
+                {
+                    "dim_width": 50,
+                    "dim_height": 80,
+                    "dim_length": 40,
+                    "dim_unit": "cm",
+                    "items": [
+                        {
+                            "description": "Test Item One",
+                            "origin_country": "GB",
+                            "quantity": 1,
+                            "value": 20,
+                            "value_currency": "GBP",
+                            "weight": 0.6,
+                            "weight_unit": "kg",
+                            "sku": "TEST0001",
+                            "hs_code": "12345"
+                        },
+                        {
+                            "description": "Test Item One",
+                            "origin_country": "GB",
+                            "quantity": 1,
+                            "value": 5,
+                            "value_currency": "GBP",
+                            "weight": 0.4,
+                            "weight_unit": "kg",
+                            "sku": "TEST0001",
+                            "hs_code": "12345"
+                        }
+                    ]
+                }
+            ]
+        },
+        "format_address_default": true,
+        "request_id": 123456789
+    },
+    "courier": "Test",
+    "referenceId": "veEZW7bCE33cwyDkK"
+}

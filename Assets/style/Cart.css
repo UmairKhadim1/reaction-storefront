@@ -1,0 +1,146 @@
+.cart__emptyMsgContainer{
+    width: 100%;
+}
+.cart__mainTitle{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 40px !important;
+
+text-transform: uppercase !important;
+
+color: #000000 !important;
+margin-top: 32px !important;
+    margin-bottom: 32px !important
+
+}
+/* .cart__emptyMsgContainer .Button__ButtonDiv-sc-1r73v88-0{
+    background-color: #D8213B !important;
+    border: 1px solid #D8213B !important;
+} */
+/* all button style not only cart */
+ .Button__ButtonDiv-sc-1r73v88-0{
+    background-color: #ffffff !important;
+    border: 1px solid #000000 !important;
+    color: #000000 !important;
+    border-radius: 25px !important;
+}
+.InlineAlert__StyledDiv-jeunyl-0 {
+    
+    border-radius: 10px;
+    font-family: 'Karla';
+    font-size: 16px;
+    padding: 10px;
+    border: 0px;
+}
+.ckwYnk:hover, .ZoCrT:hover{
+    background-color: #D8213B !important;
+    border: 1px solid #D8213B !important;
+    color: white !important;
+}
+.cKIqsP{
+    background-color: #dddddd !important;
+    border: 1px solid #dddddd !important;
+    background: #dddddd;
+    color:#727272 !important;
+}
+
+.Button__ButtonDiv-sc-1r73v88-0 [aria-disabled]{
+    background-color: #d37381 !important;
+    border: 1px solid #d37381 !important;
+    color: white !important;
+}
+.cart__container{
+    background-color: #e5e5e524;
+    padding: 24px 0px;
+}
+
+.cart__summary{
+    background-color: #ffffff;
+    margin: 0px 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cart__summary table{
+    background-color: #ffffff;
+}
+.cartPage__items{
+    background-color: #ffffff;
+    padding: 0px 30px 0px 10px;
+    border-radius: 10px;
+}
+.minicart__basketIcon{
+    width: 20px !important;
+    height: 20px !important;
+}
+.minicart__basketIcon:hover{
+    mix-blend-mode: color-dodge;
+}
+.minicart__basketIcon:hover{
+    color: #ffffff !important;
+}
+@media screen and (min-width: 1400px) {
+    .cart__summary{
+       
+        margin: 0px 30px;
+        
+    }
+}
+@media screen and (max-width: 600px) {
+    .cartPage__items{
+       
+        padding: 0px !important;
+        
+    }
+    .Cart-mb-fix{
+        padding: 0px!important;
+    }
+    .mobile-ContainerContent__MainMaxWidth,.ContainerContent__MainMaxWidth{
+        padding: 0px 15px !important;
+    }
+    .WithCart-customerSupportCopy-111 {
+        padding: 32px !important;
+    }
+    /* .box-shadow-light
+    {
+
+        box-shadow: 0px 0px 20px 3px #00000012;
+    } */
+    .customCartList__mainTitle {
+        padding: 15px !important;
+    }
+}
+@media (min-width: 960px){
+.makeStyles-cartSummary-2 {
+    padding-right: 0px !important;
+}
+}
+.mr-0{
+    margin: 0px !important;
+}
+.StripeForm__Field-phbkxv-0{
+    border-radius:50px !important;
+}
+.mt-5-stripe{
+    margin-top: 4px;
+    margin-left: -2px !important;
+    position: absolute;
+}
+.CheckoutActions__Action-sc-1rn7obm-0 h3{
+    
+    font-family: "Bebas Neue Pro" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 22px !important;
+    line-height: 40px !important;
+    text-transform: uppercase !important;
+    color: #000000 !important;
+}
+
+.CheckoutActions__Action-sc-1rn7obm-0 h3::before{
+    content: url('/icons/checkoutIcon.png');
+    position: relative;
+    left: -10px;
+    bottom: 4px;
+}

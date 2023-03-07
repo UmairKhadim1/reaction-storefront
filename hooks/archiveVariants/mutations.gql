@@ -1,0 +1,22 @@
+mutation archiveVariantMutation($input: ArchiveProductVariantsInput!) {
+  archiveProductVariants(input: $input) {
+    variants {
+      _id
+      parentId
+      ancestorId
+      media
+       {
+          URLs 
+            {
+                large
+                medium
+                original
+                small
+                thumbnail
+            }
+           priority
+        }
+     
+    }
+  }
+}

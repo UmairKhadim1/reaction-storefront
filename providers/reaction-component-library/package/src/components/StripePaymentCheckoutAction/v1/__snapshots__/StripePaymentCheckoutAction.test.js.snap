@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basic snapshot 1`] = `
+Array [
+  .c0 {
+  -webkit-font-smoothing: antialiased;
+  color: #505558;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1.25;
+}
+
+<h3
+    className="c0"
+  >
+    2
+    . 
+    Payment Information
+  </h3>,
+  "",
+  "StripeForm({})",
+  .c0 {
+  -webkit-font-smoothing: antialiased;
+  color: #b3b3b3;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1.25;
+}
+
+.c1 {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+.c2 {
+  vertical-align: super;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+    />
+     
+    <span
+      className="c2"
+    >
+      Your Information is private and secure.
+    </span>
+  </div>,
+  .c0 {
+  -webkit-font-smoothing: antialiased;
+  color: #505558;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  -webkit-letter-spacing: .03em;
+  -moz-letter-spacing: .03em;
+  -ms-letter-spacing: .03em;
+  letter-spacing: .03em;
+  line-height: 1.25;
+}
+
+<h3
+    className="c0"
+  >
+    Billing Address
+  </h3>,
+  "SelectableList({\\"options\\":\\"[Object]\\",\\"name\\":\\"billingAddressForm\\",\\"value\\":\\"same_as_shipping\\"})",
+]
+`;

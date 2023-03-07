@@ -1,0 +1,32 @@
+mutation uploadProductMutation($input: CreateProductVariantInput!) {
+  createProductVariant(input: $input) {
+    variant {
+      _id
+     media {
+  URLs {
+    large
+medium
+original
+small
+thumbnail
+  }
+  priority
+}
+      parentId
+      ancestorId
+      uploadedBy {
+  name
+image
+userId
+}
+    }
+  }
+}
+
+mutation createProductMutation($input: CreateProductInput!) {
+    createProduct(input: $input) {
+      product {
+        _id
+      }
+    }
+  }

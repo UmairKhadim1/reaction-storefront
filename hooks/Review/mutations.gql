@@ -1,0 +1,12 @@
+mutation addReviewMutation($input: productReviewInput!) {
+  createOrUpdateProductReview(input: $input) {
+   _id
+   review
+   score
+   updatedAt
+   createdBy {
+     name
+     image
+   }
+  }
+}

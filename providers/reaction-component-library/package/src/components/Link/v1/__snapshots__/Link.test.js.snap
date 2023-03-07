@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link component with image snapshot 1`] = `
+.c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<a
+  className="c0"
+  href="http://google.com"
+  onClick={[Function]}
+>
+  <img
+    alt="Reaction Storefront Component Library Logo"
+    height="200"
+    src="/storefront-component-library-logo.svg"
+    width="200"
+  />
+</a>
+`;
+
+exports[`Link component with text snapshot 1`] = `
+.c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<a
+  className="c0"
+  href="http://google.com"
+  onClick={[Function]}
+>
+  Click here
+</a>
+`;

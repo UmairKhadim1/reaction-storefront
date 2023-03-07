@@ -1,0 +1,11 @@
+.login__dialog>.MuiDialog-container>.MuiDialog-paper{
+    border-radius: 15px !important;
+    /* max-height: 500px; */
+    overflow: hidden;
+}
+.login__dialog>.MuiDialog-container{
+    background: rgba(0, 0, 0, 0.24);
+}
+.login__dialog{
+    backdrop-filter: blur(10px);
+}

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basic snapshot with all props 1`] = `
+.c0 {
+  margin-top: 40px;
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <div
+      className={null}
+      style={Object {}}
+    >
+      SelectableList({"isHorizontal":true,"isStacked":true,"options":"[Object]","name":"AddressReview","value":"entered","isReadOnly":false})
+    </div>
+  </div>
+</div>
+`;
+
+exports[`basic snapshot with only required props 1`] = `
+.c0 {
+  margin-top: 40px;
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <div
+      className={null}
+      style={Object {}}
+    >
+      SelectableList({"isHorizontal":true,"isStacked":true,"options":"[Object]","name":"AddressReview","value":"suggested","isReadOnly":false})
+    </div>
+  </div>
+</div>
+`;

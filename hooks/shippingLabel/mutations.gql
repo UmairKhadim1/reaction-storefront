@@ -1,0 +1,25 @@
+mutation addShippingLabelMutation($input: UpdateOrderFulfillmentGroupInput!) {
+  updateOrderFulfillmentGroup(input: $input) {
+   order {
+     _id
+     referenceId
+     status
+     fulfillmentGroups {
+       trackingUrl
+     }
+   }
+  }
+}
+
+mutation addTrackingCodeMutation($input: UpdateOrderFulfillmentGroupInput!) {
+  updateOrderFulfillmentGroup(input: $input) {
+   order {
+     _id
+     referenceId
+     status
+     fulfillmentGroups {
+       tracking
+     }
+   }
+  }
+}

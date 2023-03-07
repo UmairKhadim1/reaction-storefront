@@ -1,0 +1,123 @@
+.signup__logoBox{
+    padding: 20px 0px;
+    border: none;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+  }
+.signup__closeButton{
+    position: absolute !important;
+    right: 25px;
+    top: 22px;
+    background-color: #F0F0F0 !important;
+    height: 34px;
+    width: 34px;
+
+  }
+.PhoneInputInput{
+    border: none !important;
+    padding: 3px 0px !important;
+}
+.PhoneInputInput:focus{
+    outline: none !important;
+}
+.signup__formRow{
+    padding:5px 0px;
+  }
+  .signup__formRow>.MuiTextField-root>.MuiInput-formControl>.MuiInput-input{
+      border: 1px solid #DEDEDE !important;
+      padding-left: 15px;
+      border-radius: 25px;
+  }
+  .signup__formRow>.MuiTextField-root>.MuiInput-formControl::before{
+    border-bottom: none !important;
+}
+.signup__formRow>.MuiTextField-root>.MuiInput-formControl::after{
+    border-bottom: none;
+}
+.signup__footerText{
+   padding-top: 10px;
+   padding-bottom: 10px;
+    padding-left:15px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000000 !important;
+    text-align: center;
+ }
+.signup__footerText>span{
+   color:red;
+   cursor: pointer;
+}
+.signup__innerContainer{
+    margin-top: 30px;
+    padding: 0px 20px !important;
+    margin-bottom: 30px;
+  }
+.signup__inputLabel{
+    font-size:12px !important;
+    font-weight:500 !important;
+    padding:5px 15px;
+    color: #000000 !important;
+    text-align: center;
+  }
+  .signup__headerTitle{
+    padding-left:15px;
+    text-align: center;
+ }
+ .signup__footer{
+    display: flex;
+    padding: 16px 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer__signupBtn{
+    background-color: #D8213B !important;
+    padding: 5px 30px !important;
+    border-radius: 86px !important;
+    color: white !important;
+    margin-right: 20px !important;
+  }
+  .footer__signupBtn:hover{
+    color: #D8213B !important;
+    background-color: white !important;
+  }
+  .signup__leftCol{
+    position: relative;
+  }
+  .signupImgShoesLogo{
+    position: absolute;
+    left: 40px;
+    top: 49px;
+  }
+  @media screen and (min-width: 964px) {
+    .signup__logoBox{
+        
+        justify-content: flex-start;
+      }
+      .signup__closeButton{
+        height: 44px;
+        width: 44px;
+    
+      }
+    .signup__innerContainer{
+        margin-top: 30px;
+        padding: 0px 80px !important;
+        margin-bottom: 0px;
+      }
+      .signup__footerText{
+          text-align: left;
+      }
+      .signup__inputLabel{
+        text-align: left;
+      }
+      .signup__headerTitle{
+        text-align: left;
+     }
+     .signup__footer{
+     
+        justify-content: flex-start;
+      }
+      .footer__signupBtn{
+        padding: 10px 30px;
+      }
+  }

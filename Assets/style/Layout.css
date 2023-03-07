@@ -1,0 +1,13 @@
+ .LayoutContainer__MainMaxWidth{
+    padding: 0px !important;
+}
+/*@media screen and (min-width: 600px) {
+    .LayoutContainer__MainMaxWidth{
+        padding: 0px 64px !important;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .LayoutContainer__MainMaxWidth{
+        padding: 0px 84px !important;
+    }
+} */

@@ -1,0 +1,40 @@
+.faqs{
+    .faq__mainHeading{
+        font-family: "Bebas Neue Pro" !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 34px !important;
+        line-height: 40px !important;
+        text-transform: uppercase !important;
+        color: #000000 !important;
+    }
+    .faq__title{
+        font-family: "Karla" !important;
+        font-style: normal !important;
+        font-weight: bold !important;
+        font-size: 24px !important;
+        line-height: 28px !important;
+        letter-spacing: 0.01em !important;
+        color: #000000 !important;
+    }
+    .faq__question{
+        font-family: "Karla" !important;
+        font-style: normal !important;
+        font-weight: bold !important;
+        font-size: 18px !important;
+        line-height: 21px !important;
+        letter-spacing: 0.01em !important;
+        color: #3B3B3B !important;
+    }
+    .faq__answer{
+        font-family: "Karla" !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 18px !important;
+        line-height: 23px !important;
+        letter-spacing: 0.02em !important;
+        text-transform: capitalize !important;
+        color: #3B3B3B !important;
+
+    }
+}

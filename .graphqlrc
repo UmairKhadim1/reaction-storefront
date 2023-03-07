@@ -1,0 +1,5 @@
+{
+  "request": {
+    "url": "https://localhost:3000/graphql"
+  }
+}

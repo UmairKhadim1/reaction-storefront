@@ -1,0 +1,10 @@
+mutation updateProfileMutation($input: UpdateAccountInput!) {
+  updateAccount(input: $input) {
+      account {
+        name
+        picture
+      }
+  }
+}
+
+

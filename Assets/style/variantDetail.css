@@ -1,0 +1,653 @@
+.variantDetail__container{
+    /* background: linear-gradient(180deg, rgba(252, 252, 252, 0) 0%, #FCFCFC 100%); */
+    padding: 24px 0px;
+}
+.clr-red{
+  color:#D8213B;
+}
+.fw-400{
+  font-weight: bold;
+}
+.variantDetail__soldBy{
+  font-size: 16px !important;
+  text-decoration: underline;
+}
+.variantDetail__sectionCustomization{
+  background: linear-gradient(180deg, rgba(252, 252, 252, 0) 0%, #FCFCFC 100%);
+  margin-bottom: 15px !important;
+}
+.variantDetail__rightContainer{
+  padding-left: 70px !important;
+}
+.variantDetail__productTitle{
+  font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 40px !important;
+/* or 118% */
+text-transform: uppercase !important;
+color: #000000 !important;
+}
+.variantDetail__brandBox img{
+  width: 40px;
+  object-fit: contain;
+  margin-right: 5px;
+}
+.variantDetail__infoCard{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding: 10px 0px;
+}
+.variantDetail__brandName{
+  font-family: "Bebas Neue Pro" !important;
+    font-size: 34px !important;
+    text-transform: uppercase;
+    color: #8C8C8C !important;
+}
+.variantDetail__brandNumber{
+    font-size: 14px !important;
+    color: #8C8C8C !important;
+}
+.variantDetail__infoData{
+    font-weight: 700 !important;
+}
+.variantDetail__sizeHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.variantDetail__sizeTitle{
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  text-transform: capitalize !important;
+    color: #000000 !important;
+}
+.variantDetail__sizeChart{
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-transform: capitalize !important;
+    color: #000000 !important;
+    letter-spacing: -0.02em !important;
+text-decoration-line: underline !important;
+}
+.variantDetail__sizes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.variantDetail__itemSize
+{
+  width: 44px;
+  height: 44px;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 8px;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  font-size: 11px;
+}
+.variantDetail__nonActiveItemSize{
+  opacity: 0.2;
+  background: #F0F0F0;
+  backdrop-filter: blur(20px);
+}
+.variantDetail__activeItemSize:hover
+{
+    background-color: #D8213B;
+    color:white;
+}
+.variantDetail__sizeChart{
+    cursor: pointer;
+}
+.variantDetail__price{
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px 0px;
+}
+
+.variantDetail__priceBtn{
+    border: 1px solid !important;
+    padding: 5px 10px !important;
+    border-radius: 20px !important;
+    margin: 0px 5px !important;
+    width: 100%;
+    background-color: #FFFFFF !important;
+    color:#000000 !important;
+}
+.variantDetail__priceBtn:hover{
+  background-color: #D8213B !important;
+  color:#FFFFFF !important;
+}
+/* swiper slider css start*/
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+.variantDetail__slider  .swiper-slide img {
+    display: block;
+     width: 100%; 
+    height: 100%; 
+     object-fit: contain;
+  }
+  
+  body {
+    background: #000;
+    color: #000;
+  }
+  
+  .swiper-container {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .variantDetail__slider .mySwiper2 {
+    height: 350px;
+    width: 100%;
+    margin-top: 0px;
+  }
+  
+  .mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+  
+  .mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+  
+  .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+  
+  .variantDetail__productVariantMediaSlider .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+  }
+  .variantDetail__slider{
+      height: 100%;
+      display: flex;
+      align-items: center;
+      max-height: 400px;
+  }
+  .variantDetail__slider img{
+    object-fit: contain;
+    height: 300px;
+  }
+  .variantDetail__productVariantSlider{
+      padding: 40px 0px;
+  }
+  .variantDetail__productmediaSlider img{
+      width: 100%;
+      height: 60px;
+  }
+ .variantDetail__productVariantSlider .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    background: #F0F0F0;
+    border-radius: 25px;
+    width: 44px;
+    height: 44px;
+}
+.variantDetail__productVariantSlider .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  background: #F0F0F0;
+    border-radius: 25px;
+    width: 44px;
+    height: 44px;
+}
+.variantDetail__productVariantSlider  .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+   
+    font-size: 20px;
+}
+.variantDetail__productVariantSlider .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+  font-size: 20px;
+}
+.variantDetail__productVariantSlider ,.mySwiper{
+  height: 100% !important;
+  margin-top: -13px;
+}
+.variantDetail__slider .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after{
+  color: #000000;
+  font-size: 20px;
+}
+.variantDetail__slider .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after{
+color: #000000;
+font-size: 20px;
+}
+.variantDetail__slider .swiper-button-next,.variantDetail__slider .swiper-button-prev{
+  
+  background: #ffffffa6;
+  top: 39%!important;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+  /* slider css end here  */
+
+  .variantDetail__section2{
+    padding: 60px 0px;
+  }
+.variantDetail__productVariantMediaSlider {
+    margin: 0px 0px 80px 0px;
+}
+.variantDetail__discriptionContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.variantDetail__discriptionTitle{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 41px !important;
+text-align: center;
+text-transform: uppercase;
+color: #000000 !important;
+padding-bottom: 10px;
+margin-top: 30px !important;
+}
+.variantDetail__discriptionContent{
+    font-family: "Karla" !important;
+font-style: normal;
+font-weight: 400 !important;
+font-size: 14px !important;
+line-height: 23px !important;
+text-align: center;
+letter-spacing: 0.02em !important;
+text-transform: capitalize;
+color: #000000 !important;
+
+}
+.variantDetail__priceBox{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.variantDetail__container .addToCartBtn{
+  background-color: #FFFFFF !important;
+    color:black !important;
+    border-radius: 30px;
+    padding: 0px !important;
+    width:  100%;
+}
+.variantDetail__container .addToCartBtn .MuiButton-label{
+ display: block;
+}
+.variantFooter__Btn {
+  padding: 20px 0px !important;
+}
+.variantFooter__bidBtn{
+  background-color: #FFFFFF !important;
+  color: black !important;
+  font-family: "Nunito" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  border: 1px solid !important;
+  padding: 6px 16px !important;
+  border-radius: 30px !important;
+  font-size: 14px !important;
+  width: 100% !important;
+  margin-top: 10px !important;
+}
+.variantFooter__bidBtn:hover{
+  background-color: #D8213B !important;
+  color: #FFFFFF !important;
+}
+.addToCart .MuiTypography-body1{
+  font-family: "Nunito" !important;
+  font-style: normal !important;
+  color: black !important;
+  font-weight: 600 !important;
+  border: 1px solid;
+  padding: 6px 16px;
+  border-radius: 30px;
+  font-size: 14px !important;
+}
+.addToCart .MuiTypography-body1:hover{
+  color: #FFFFFF !important;
+  background-color: #D8213B;
+  
+}
+/* .withInjectedStores\(withInjectedStores\(ProductDetailAddToCart\)\)-addToCartText-47{
+  color: black !important;
+}
+.withInjectedStores\(withInjectedStores\(ProductDetailAddToCart\)\)-addToCartText-47:hover{
+  color: #FFFFFF !important;
+}
+.variantDetail__container .withInjectedStores\(withInjectedStores\(ProductDetailAddToCart\)\)-addToCartText-91{
+    color: black !important;
+    font-weight: 400;
+}
+.variantDetail__container .withInjectedStores\(withInjectedStores\(ProductDetailAddToCart\)\)-addToCartText-91:hover{
+  color: #FFFFFF;
+} */
+/* .variantDetail__container .addToCartBtn:hover{
+  background-color: #D8213B !important;
+  color:#FFFFFF !important;
+} */
+.variantDetail__slider img:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.variantDetail__activeItemSize{
+  background-color: #D8213B !important;
+  color:#FFFFFF !important;
+}
+.variantDetail__profileImg { 
+  height: 96px;
+ width: 96px;
+ background-size: cover;
+ border-radius: 60px;
+}
+.variantDetail__info{
+ display: flex;
+ align-items: center;
+ margin-bottom: 30px !important;
+ 
+}
+.variantDetail__profileInfo{
+ margin-left: 15px;
+}
+.variantDetail__profileName{
+ font-family: "Bebas Neue Pro" !important;
+ font-style: normal !important;
+ font-weight: 400 !important;
+ font-size: 18px !important;
+ line-height: 32px !important;
+ /* identical to box height, or 100% */
+ 
+ text-transform: uppercase !important;
+ 
+ color: #000000 !important;
+ margin-bottom: 10px !important;
+ 
+}
+.variantDetail__profileStatus{
+  font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 18px !important;
+line-height: 21px !important;
+color: #999999 !important;
+}
+.variantDetail__reviewStars{
+ display: none;
+ margin-top: -2px;
+ align-items: center;
+}
+.variantDetail__reviewStars .fa-star{
+margin-right: 5px;
+display: none;
+color: #D8213B;
+}
+.variantDetail__rating{
+ font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 18px !important;
+line-height: 16px !important;
+/* identical to box height */
+
+
+color: #999999 !important;
+}
+.variantDetail__productVariantMediaSlider .swiper-slide{
+    height: 103px !important;
+}
+.variantDetail__action{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px !important;
+}
+.variantDetail__actionLeft{
+  display: flex;
+  align-items: center;
+}
+.variantDetail__actionLeftBox{
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+}
+.variantDetail__actionLeftBox img{
+  margin-right: 5px !important;
+  width: 20px;
+  height: 20px;
+}
+.variantDetail__actionLeftBox span{
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #8C8C8C;
+  
+}
+.variantDetail__actionRight span{
+  font-family: "Bebas Neue Pro" !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: right;
+  text-transform: capitalize;
+  color: #000000;
+}
+/* write Review Box styling */
+.Reviews__writeReviewBox{
+   cursor: pointer;
+}
+.writeReview__Wrapper .MuiPaper-rounded{
+  border-radius: 15px !important;
+  
+}
+.writeReview__Wrapper .MuiPaper-rounded::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.writeReview__Wrapper .MuiPaper-rounded::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.writeReview__Wrapper .MuiPaper-rounded::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.writeReview__Wrapper .MuiPaper-rounded::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.writeReview__modalContainer{
+  padding: 30px;
+}
+.writeReview__header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.writeReview__heading{
+  font-family: "Bebas Neue Pro" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 34px !important;
+  line-height: 41px !important;
+  /* identical to box height */
+  
+  text-transform: uppercase !important;
+  
+  color: #000000 !important;
+}
+.writeReview__title{
+  font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 18px !important;
+line-height: 21px !important;
+color: #000000 !important;
+
+}
+.writeReview__ratingBox .MuiRating-iconFilled .MuiSvgIcon-root{
+  color: #D8213B !important;
+}
+.writeReview__ratingBox .MuiBox-root{
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+  margin-bottom: 10px;
+}
+.writeReview__comment{
+  width: 100%;
+  margin-bottom: 30px;
+  border: 0.5px solid #8C8C8C !important;
+  border-radius: 10px;
+  padding: 5px;
+}
+.writeReview__comment:focus{
+  outline: none;
+}
+.writeReview__submitBtn{
+  font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 14px !important;
+line-height: 20px !important;
+display: flex !important;
+align-items: center !important;
+text-align: center !important;
+color: #FFFFFF !important;
+cursor: pointer;
+background-color: #D8213B !important;
+width: 100%;
+border-radius: 25px !important;
+padding: 14px 0px !important;
+text-transform: capitalize !important;
+}
+.variant__customizedInput{
+  width: 100%;
+  padding-left: 10px !important;
+}
+.variant__customizedInput input{
+  font-family: "Karla"!important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 16px !important;
+color: #999999 !important;
+padding: 10px 0px !important;
+}
+.variant__customizedInput .MuiInputBase-root:hover {
+ border: none
+}
+.variant__customizedInput .MuiInput-underline:hover:not(.Mui-disabled):before{
+  border: none;
+}
+.variant__customizedInput .MuiInput-underline::before{
+ border-bottom: none;
+}
+.variant__customizedInput .MuiInput-underline::after{
+  border-bottom: none;
+ }
+  @media screen and (min-width: 1400px){
+   
+    .variantDetail__recommendedSection .CatalogGrid__GridItem-lw06dl-1{
+      max-width: 20% !important;
+    }
+    .variantDetail__authencitySection .CatalogGrid__GridItem-lw06dl-1{
+      max-width: 20% !important;
+    }
+    .variantDetail__productVariantMediaSlider .swiper-slide img {
+          height: 120px;
+    }
+    .variantDetail__productVariantMediaSlider {
+      margin: 0px 0px 30px 0px;
+  }
+  .variantDetail__productVariantMediaSlider .swiper-slide{
+    height: 120px !important;
+}
+.variantDetail__slider .mySwiper2 {
+  height: 500px;
+  margin-top: 107px;
+}
+.productDetail__productmediaSlider  .mySwiper{
+  margin-top: 6px;
+
+}
+.variantDetail__productVariantMediaSlider  .mySwiper{
+  margin-top: 100px;
+}
+.variantDetail__productVariantMediaSlider {
+  margin: 0px 0px 30px 0px;
+}
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    .productDetail__mayLikedSection h6,.variantDetail__recommendedSection h6{
+      
+    margin: 0px 0px 10px 8px !important;
+    }
+    .variantDetail__slider .mySwiper2{
+      height: 220px;
+    }
+    .variantDetail__slider{
+      height: 250px;
+    }
+    .variantDetail__rightContainer{
+      padding: 0px 15px !important;
+    }
+    .variantDetail__slider .swiper-button-next,.variantDetail__slider .swiper-button-prev{
+  
+      top: 34%!important;
+  
+    }
+    .variantDetail__productVariantMediaSlider .swiper-slide img {
+      height: 65px;
+    }
+    .variantDetail__productVariantMediaSlider {
+      margin: 0px 0px 0px 0px;
+  }
+  .variantDetail__section2{
+    padding: 0px 0px;
+  }
+  }

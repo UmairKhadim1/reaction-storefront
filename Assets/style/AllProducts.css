@@ -1,0 +1,234 @@
+/* Grid items style */
+.productGrid__mainContainer{
+    padding: 24px 0px;
+  }
+  .allProducts__mainContainer{
+      background-image:url('/images/HomeMain.png');
+      background-repeat:no-repeat;
+      background-size:cover;
+      border-radius:10px;
+     
+  }
+  .allProducts__mainContainer .mainContainer__box{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 100px 0px;
+    }
+  .allProducts__mainContainer .mainContainer__heading{
+      color:white;
+      padding:0px 0px;
+      font-size: 46px !important;
+      text-align: center;
+      width: 100%;
+      font-family: "Bebas Neue Pro" !important;
+      font-style: normal !important;
+      font-weight: bold !important;
+      
+      /* width:60%; */
+    }
+    .allProducts__section1{
+        padding: 30px 0px 30px 0px;
+      }
+    .allProducts__middleContainer{
+      /* background-image:url('/images/allProductsImg2.png');
+      background-repeat:no-repeat;
+      background-size:cover;
+      border-radius:10px; */
+      background-color: rgb(0 0 0 / 60%);
+      padding: 40px 0px;
+      border-radius:10px;
+  }
+ .shopAll .middleContainer__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    }
+    .shopAll .middleContainer__heading{
+      color:white;
+      padding:0px 0px;
+      font-size: 46px !important;
+      font-style: normal !important;
+font-weight: bold !important;
+      text-align: center;
+      width: 100%;
+      font-family: "Bebas Neue Pro" !important;
+      /* width:60%; */
+    }
+    .allProducts__section2{
+      padding: 30px 0px 0px 0px
+    }
+    .allProductsSection2__left{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #D8213B;
+      height: 100%;
+      border-radius: 10px;
+      padding: 70px 42px;
+    }
+    .allProductsSection2__leftTitle{
+      color: white;
+      font-size: 50px !important;
+      font-style: normal;
+      padding: 0px 0px;
+      font-weight: bold !important;
+      line-height: 50px !important;
+      font-family: "Bebas Neue Pro" !important;
+    }
+    .allProductsSection2__leftTitle1{
+      margin-left: -54px !important;
+    }
+    .allProductsSection2__leftBtn{
+      border: 1px solid #FFFFFF !important;
+      background-color: #FFFFFF !important;
+      color: #000000 !important;
+      border-radius: 25px !important;
+      padding: 7px 38px !important;
+      margin-top: 15px !important;
+      margin-right: 20px !important;
+    }
+    .allProductsSection2__leftBtn:hover{
+      border: 1px solid #FFFFFF !important;
+      background-color: #D8213B !important;
+      color: #FFFFFF !important;
+    }
+    .allProducts__section3{
+     
+      background-image:url('/images/HomeImg2.png');
+      background-repeat:no-repeat;
+      background-size:cover;
+      border-radius:10px;
+    }
+    .allProducts__section4{
+      padding: 30px 0px 0px 0px;
+    }
+  
+  .allProducts__section4  .section4__Heading{
+      color: #000000 !important;
+      margin: 0px 0px 22px 0px !important;
+      font-size: 34px !important;
+      font-style: normal !important;
+      font-weight: normal !important;
+      line-height: 41px !important;
+      text-transform: uppercase !important;
+      font-family: "Bebas Neue Pro" !important;
+      padding-bottom: 0px;
+    }
+    .allProductsSection2__leftBox{
+      padding-right: 20px !important;
+    }
+  @media screen and (min-width: 600px) {
+    .allProducts__mainContainer .mainContainer__heading{
+          color:white;
+          text-align: left;
+           font-size: 80px !important;
+          
+          /* width:60%; */
+        }
+        .allProducts__mainContainer  .mainContainer__box{
+          margin-left: 100px
+        }
+        .shopAll  .middleContainer__heading{
+          color:white;
+          text-align: left;
+           font-size: 80px !important;
+          
+          /* width:60%; */
+        }
+     .shopAll   .middleContainer__box{
+          margin-left: 130px
+        }
+  
+        .shopAll    .section4__Heading{
+          
+          font-size: 34px;
+        
+        }
+        
+       /* .allProducts__section4 .CatalogGrid__GridItem-lw06dl-1{
+          max-width: 20% !important;
+        } */
+    }
+    
+  
+    @media screen and (min-width: 1400px) {
+      .allProducts__mainContainer  .mainContainer__heading{
+          color:white;
+          padding:0px 0px;
+          text-align: left;
+          
+          
+          /* width:60%; */
+        }
+        .allProducts__mainContainer  .mainContainer__box{
+          display: flex;
+          justify-content: center;
+          margin-left: 130px
+        }
+        .shopAll  .middleContainer__heading{
+          color:white;
+          padding:0px 0px;
+          text-align: left;
+          
+          
+          /* width:60%; */
+        }
+     .shopAll   .middleContainer__box{
+          display: flex;
+          justify-content: center;
+          margin-left: 130px
+        }
+  
+        .shopAll  .section4__Heading{
+          
+          font-size: 54px;
+        
+        }
+        .allProductsSection2__leftTitle{
+          
+          font-size: 50px !important;
+          
+        }
+        .allProducts__section2 .CatalogGrid__GridItem-lw06dl-1{
+          min-width: 33.33% !important;
+        }
+      
+        /* .allProducts__section1 .CatalogGrid__GridItem-lw06dl-1{
+          max-width: 20% !important;
+        }
+        .allProducts__section4 .CatalogGrid__GridItem-lw06dl-1{
+          max-width: 20% !important;
+        } */
+        
+    }
+    
+@media screen and (max-width: 600px) {
+  
+  .mob-dif
+  {
+    width:100% !important;
+  }
+  .shopAll .mySwiper2 .imgContainer 
+  {
+    height: 85px;
+    width: 85px;
+  }
+  .shopAll .shopAll__section{
+    margin-bottom: 0px !important;
+  }
+
+}
+@media screen and (max-width: 300px){
+.shopAll .mySwiper2 .imgContainer {
+    height: 45px;
+    width: 45px;
+}
+#simple-popper{
+  margin: 10px !important;
+left:10px !important}
+}

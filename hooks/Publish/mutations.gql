@@ -1,0 +1,7 @@
+mutation publishMutation($productIds: [ID]!) {
+  publishProductsToCatalog(productIds: $productIds) {
+    product {
+        _id
+    }
+  }
+}

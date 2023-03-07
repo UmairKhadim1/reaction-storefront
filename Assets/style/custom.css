@@ -1,0 +1,4848 @@
+/* global classes */
+.contain__img{
+    object-fit: contain !important;
+}
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 12px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    background: #f5f5f5;
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #ccc;  
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: #999;  
+    }
+
+.profileOrderList{
+    max-width: 960px !important;
+}
+.show-order{
+    display: inherit !important;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.hide-order{
+    display: none !important;
+}
+.uploadProductForm__footerBtn .w-175{
+    width: 175px !important;
+}
+.search__Nav_mob, .search__Nav_mob >span > div{
+    border-radius: 0px !important;
+}
+.CartItemDetail__Attr-om1nev-4{
+    white-space: pre-line;
+    margin-top: 10px !important;
+}
+.mobileSearchBtn{
+    width: 40px !important;
+    height: 40px !important;
+    background: #80808047;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px; 
+    background: #F0F0F0;
+backdrop-filter: blur(20px);
+}
+.mobile__dialog .MuiDialog-paper{
+    align-self: self-start !important;
+}
+.inputcontainer {
+    position: relative;
+  }
+  
+  input {
+    width: 100%;
+    font-size: 20px;
+    box-sizing: border-box;
+  }
+  
+  .icon-container {
+    position: absolute;
+    right: 10px;
+    top: calc(50% - 10px);
+  }
+  .loader {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    animation: around 5.4s infinite;
+  }
+  
+  @keyframes around {
+    0% {
+      transform: rotate(0deg)
+    }
+    100% {
+      transform: rotate(360deg)
+    }
+  }
+  
+  .loader::after, .loader::before {
+    content: "";
+    background: white;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-width: 2px;
+    border-color: #333 #333 transparent transparent;
+    border-style: solid;
+    border-radius: 20px;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    animation: around 0.7s ease-in-out infinite;
+  }
+  
+  .loader::after {
+    animation: around 0.7s ease-in-out 0.1s infinite;
+    background: transparent;
+  }
+
+/* loader */
+ .spin-icon {
+    margin: auto;
+    width: 20px;
+    height: 20px;
+  
+    border: solid 3px transparent;
+    border-top-color:  #666;
+    border-left-color: #666;
+    border-radius: 80px;
+  
+    -webkit-animation: loading-spinner 500ms linear infinite;
+    -moz-animation:    loading-spinner 500ms linear infinite;
+    -ms-animation:     loading-spinner 500ms linear infinite;
+    -o-animation:      loading-spinner 500ms linear infinite;
+    animation:         loading-spinner 500ms linear infinite;
+  }
+  
+  @-webkit-keyframes loading-spinner {
+    0%   { -webkit-transform: rotate(0deg);   transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+  }
+  
+  @-moz-keyframes loading-spinner {
+    0%   { -moz-transform: rotate(0deg);   transform: rotate(0deg); }
+    100% { -moz-transform: rotate(360deg); transform: rotate(360deg); }
+  }
+  
+  @-o-keyframes loading-spinner {
+    0%   { -o-transform: rotate(0deg);   transform: rotate(0deg); }
+    100% { -o-transform: rotate(360deg); transform: rotate(360deg); }
+  }
+  
+  @-ms-keyframes loading-spinner {
+    0%   { -ms-transform: rotate(0deg);   transform: rotate(0deg); }
+    100% { -ms-transform: rotate(360deg); transform: rotate(360deg); }
+  }
+  
+  @keyframes loading-spinner {
+    0%   { transform: rotate(0deg);   transform: rotate(0deg); }
+    100% { transform: rotate(360deg); transform: rotate(360deg); }
+  }
+    
+.pt-5{
+    margin-top: 5px !important;
+}
+.white-input .MuiInput-formControl{
+    border-radius: 50px;
+    background: white;
+    color: hsl(0, 0%, 20%) !important; 
+
+}
+
+.white-input #standard-basic{
+    color: hsl(0, 0%, 20%) !important; 
+
+}
+.ContainerContent__MainMaxWidth{
+    padding: 0px 24px !important;
+}
+/* .ContainerPages__MainMaxWidth{
+    padding: 0px 16px !important;
+} */
+.blur{
+    
+    filter: blur(1px);
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    position: relative;
+    width: 100%;
+    padding: 15px !important;
+}
+.rc-slider{
+   width: 30%;
+   margin-top: 15px;
+}
+.rc-slider-rail{
+    height: 5px;
+}
+.rc-slider-track{
+   background-color: #D8213B !important;
+}
+.rc-slider-handle{
+    border: solid 2px #d8213b !important;
+}
+.rc-slider-handle:hover{
+    border: solid 2px #d8213b !important;
+}
+.rc-slider-handle-click-focused:focus{
+    border-color: #D8213B !important;
+    box-shadow: none;
+}
+
+.yoti_image_box{
+}
+.yoti_image{
+    width: 100%;
+    max-width: 150px;
+    margin: 0px 10px;
+}
+.ProductInfoBottom{
+    flex-direction: column;
+    align-items: center;
+}
+.red-font{
+    color: #D8213B;
+}
+.product__titleExtension{
+    display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.MuiTouchRipple-root{
+    display: block !important;
+}
+.search__Nav .MuiTouchRipple-root{
+    display: none !important;
+    
+}
+.MuiGrid-root{
+    max-width: 100%;
+}
+.fs-18{
+    font-size: 18px;
+}
+.ptb-10{
+   
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #f2f2f2;
+    border-top: navajowhite;
+}
+.productGrid__4cardContainer{
+    margin: 0px !important;
+}
+.cat-thumb-main a >div{
+    background: white;
+}
+
+.cat-thumb-main a >div>img
+{
+
+    border: 1px solid #d8d8d852;
+    border-top-left-radius: 10px;     
+    border-top-right-radius:10px;
+       object-fit:contain !important;
+}
+.productGrid__4card0,.productGrid__4card4{
+    padding-left: 0px !important;
+}
+.productGrid__4card3,.productGrid__4card7{
+    padding-right: 0px !important;
+}
+
+.lrp-15{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+}
+/* FAQS styling start here */
+.faqs{
+    padding: 33px 0px;
+}
+.faqs .faq__pageName{
+    font-family: "Bebas Neue Pro" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 34px !important;
+    line-height: 40px !important;
+    text-transform: uppercase !important;
+    color: #000000 !important;
+}
+.faqs .faq__mainHeadingContainer{
+    justify-content: space-between;
+    align-items: center;
+}
+.faqs .faq__mainHeading{
+        font-family: "Bebas Neue Pro" !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 34px !important;
+        line-height: 40px !important;
+        text-transform: uppercase !important;
+        color: #000000 !important;
+       margin-top: 33px;
+    }
+.faqs   .faq__title{
+        font-family: "Karla" !important;
+        font-style: normal !important;
+        font-weight: bold !important;
+        font-size: 24px !important;
+        line-height: 28px !important;
+        letter-spacing: 0.01em !important;
+        color: #000000 !important;
+        margin: 70px 0px 0px 0px;
+    }
+.faqs    .faq__question{
+        font-family: "Karla" !important;
+        font-style: normal !important;
+        font-weight: bold !important;
+        font-size: 18px !important;
+        line-height: 21px !important;
+        letter-spacing: 0.01em !important;
+        color: #3B3B3B !important;
+        cursor: pointer;
+    }
+.faqs    .faq__answer{
+        font-family: "Karla" !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 18px !important;
+        line-height: 23px !important;
+        letter-spacing: 0.02em !important;
+        color: #3B3B3B !important;
+
+    }
+
+.faqs    .accordion {
+        font-size: 17px;
+      }
+      
+.faqs      .accordion__button {
+        border: 0;
+        padding: 19px 0px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: inherit;
+        background: none;
+        /* border-bottom: 1px solid #B8B8B8; */
+      }
+      
+.faqs      .accordion__button span {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 15px;
+      }
+      
+.faqs      .accordion__button:focus {
+        outline: none;
+      }
+      
+.faqs      .accordion__content {
+        padding: 0 20px;
+        opacity: 0;
+        transition: all .2s;
+        height: 0;
+        margin: 0;
+        margin-top: -10px;
+        border-bottom: 1px solid #D8213B;
+        border-top: 0;
+      }
+      
+.faqs      .accordion__content.active {
+          height: auto;
+          opacity: 1;
+          padding: 0px 0px 19px 0px;
+      }
+
+/* faqs styling end here */
+/* buyerProtection style start here */
+.buyerProtection{
+    padding: 33px 0px;
+}
+.buyerProtection .buyerProtection__heading{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 40px !important;
+text-transform: uppercase !important;
+color: #000000 !important;
+margin-bottom: 33px;
+}
+.buyerProtection .buyerProtection__container{
+    margin-bottom: 33px;
+}
+.buyerProtection .buyerProtection__content{
+    font-family: "karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 18px !important;
+line-height: 30px !important;
+letter-spacing: 0.01em !important;
+
+color: #3B3B3B !important;
+
+}
+.buyerProtection__subHeading{
+    font-family: "karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 24px !important;
+line-height: 30px !important;
+letter-spacing: 0.01em !important;
+
+color: #3B3B3B !important;
+
+}
+.buyerProtection__list{
+    font-family: "karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 30px !important;
+    letter-spacing: 0.01em !important;
+    
+    color: #3B3B3B !important;
+}
+
+/* buyerProtection style end here */
+/* contactus styling start here */
+.contactus{
+    padding: 33px 0px;
+}
+.contactus .contactus__pagename
+{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 40px !important;
+/* identical to box height, or 118% */
+
+text-transform: uppercase !important;
+
+color: #000000 !important;
+margin-bottom: 33px;
+}
+.contactus .contactus__mainHeading{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 40px !important;
+/* identical to box height, or 118% */
+
+text-transform: uppercase !important;
+
+color: #000000 !important;
+margin-bottom: 33px;
+}
+.contactus .contactus_inputLabel{
+    font-size:12px !important;
+    font-weight:500 !important;
+    padding:5px 15px;
+    color: #000000 !important;
+}
+.contactus .contactus_inputinput{
+    width: 100%;
+    max-width: 90%;
+   
+}
+.contactus .contactus_inputinput input{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 16px !important ;
+padding: 16px 21px;
+color: #999999 !important;
+}
+.contactus .contactus_inputmessage{
+    width: 100%;
+    max-width: 95%;
+    border-radius: 15px;
+    border: 1px solid #DEDEDE;
+    padding: 16px 21px;
+    color: #999999 !important;
+    margin-bottom: 16px;
+    font-family: "karla" !important;
+    font-weight: normal;
+    font-size: normal;
+    
+}
+.contactus .contactus_inputmessage::placeholder{
+         color: #999999 !important;
+         font-family: "Karla";
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 16px !important;
+}
+.contactus .contactus_inputmessage textarea{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important ;
+    
+    color: #999999 !important;
+}
+.contactus .contactus_inputmessage:focus{
+  outline: none;
+}
+.contactus .contactus__sendBtn{
+    width: 100%;
+    max-width: 150px;
+    background-color: #D8213B;
+    color: #FFFFFF !important;
+    border-radius: 50px !important;
+    padding: 14px 3px;
+    text-transform: capitalize;
+    font-family: "Nunito" !important;
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 19px !important;
+}
+.contactus .contactus__sendBtn:hover{
+    color: #D8213B !important;
+}
+.contactus .contactus__socialMediaRow{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+.contactus .contactus__socialMediaIcon{
+    width: 25px;
+    height: 25px;
+}
+.contactus__locationIcon img{
+    width: 25px;
+    height: 25px;
+}
+.contactus .contactus__socialMediaIconLabel{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    /* identical to box height, or 122% */
+    
+    letter-spacing: 0.5px !important;
+    
+    color: #000000 !important;
+    padding-left: 18px;
+}
+.contactus .contactus__socialMediaContainer{
+    margin: 30% 0px 0px 100px;
+}
+/* contactus styling end here */
+/* Help styling start here */
+
+.help{
+    padding: 33px 0px;
+}
+.help .help__pagename
+{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 40px !important;
+/* identical to box height, or 118% */
+
+text-transform: uppercase !important;
+
+color: #000000 !important;
+margin-bottom: 33px;
+}
+.help .help__mainHeading{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 40px !important;
+/* identical to box height, or 118% */
+
+text-transform: uppercase !important;
+
+color: #000000 !important;
+margin-bottom: 33px;
+}
+.help__featureBox{
+    display: flex;
+    border: 1px solid #DEDEDE;
+    padding: 14px 0px;
+    border-radius: 10px;
+}
+.help__featureIcon{
+    display: flex;
+    justify-content: center;
+}
+.help__featureIcon img{
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+}
+.help .help__featureTitle{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 16px !important;
+line-height: 22px !important;
+/* identical to box height, or 137% */
+
+letter-spacing: 0.5px !important;
+
+color: #000000 !important;
+
+}
+.help .help__featureDescription{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 19px !important; 
+    letter-spacing: 0.5px !important;
+    color: #3B3B3B !important;
+
+}
+.help .help__featureContainer{
+    margin-bottom: 33px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #B8B8B8;
+}
+.help .help__mainHeadingContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.help   .faq__question{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 21px !important;
+    letter-spacing: 0.01em !important;
+    color: #3B3B3B !important;
+    cursor: pointer;
+}
+.help    .faq__answer{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 23px !important;
+    letter-spacing: 0.02em !important;
+    color: #3B3B3B !important;
+
+}
+
+.help   .accordion {
+    font-size: 17px;
+  }
+  
+.help      .accordion__button {
+    border: 0;
+    padding: 19px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: inherit;
+    background: none;
+    /* border-bottom: 1px solid #B8B8B8; */
+  }
+  
+.help      .accordion__button span {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+  }
+  
+.help     .accordion__button:focus {
+    outline: none;
+  }
+  
+.help      .accordion__content {
+    padding: 0 20px;
+    opacity: 0;
+    transition: all .2s;
+    height: 0;
+    margin: 0;
+    margin-top: -10px;
+    border-bottom: 1px solid #D8213B;
+    border-top: 0;
+  }
+  
+.help      .accordion__content.active {
+      height: auto;
+      opacity: 1;
+      padding: 0px 0px 19px 0px;
+  }
+.help  .help__popularFaqsContainer{
+    border: 1px solid #DEDEDE;
+box-sizing: border-box;
+border-radius: 15px;
+padding:8px 20px;
+}
+.helpAccordion__arrowUp{
+    width: 12px;
+    height:12px;
+}
+/* Help styling end here */
+/* Aboutus styling start from here */
+.aboutus{
+    padding: 33px 0px;
+}
+.aboutus .aboutus__pageName
+{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 40px !important;
+/* identical to box height, or 118% */
+
+text-transform: uppercase !important;
+
+color: #000000 !important;
+margin-bottom: 33px;
+}
+
+.aboutus .aboutus__mainHeading{
+    font-family: "karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 24px !important;
+line-height: 28px !important;
+/* identical to box height, or 118% */
+/* text-transform: uppercase !important; */
+
+color: #000000 !important;
+margin-bottom: 33px;
+}
+.aboutus__contentContainer{
+    margin-bottom: 33px;
+}
+.aboutus .aboutus__content{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 18px !important;
+line-height: 30px !important;
+/* or 150% */
+
+letter-spacing: 0.01em !important;
+
+color: #3B3B3B !important;
+
+}
+.aboutus .aboutus__content1{
+    margin-bottom: 5px;
+}
+.aboutus .aboutus__logo{
+    display: flex;
+    justify-content: center;
+    padding:0px 20px;
+}
+.aboutus .aboutus__logo img{
+   
+    width: 100%;
+    object-fit: contain;
+    height: 400px;
+}
+/* Aboutus Styling end here */
+/* Term and condition styling start from here */
+
+.terms{
+    padding: 33px 0px;
+}
+.terms .terms__pagename
+{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 40px !important;
+/* identical to box height, or 118% */
+
+text-transform: uppercase !important;
+
+color: #000000 !important;
+margin-bottom: 33px;
+}
+.terms .terms__contentTitle{
+    font-family: "karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 24px !important;
+line-height: 28px !important;
+/* identical to box height, or 118% */
+
+text-transform: uppercase !important;
+
+color: #000000 !important;
+margin-bottom: 10px;
+}
+
+.terms .terms__contentContainer{
+    margin-bottom: 18px;
+}
+.terms .terms__content{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 18px !important;
+line-height: 36px !important;
+letter-spacing: 0.01em !important;
+
+color: #3B3B3B !important;
+
+}
+.terms .terms__contentMainPoint{
+    padding: 0px 0px 0px 41px !important;
+}
+/* term and condition styling end here */
+/* Privacy policy styling start here */
+.privacyPolicy{
+    padding: 33px 0px;
+}
+.privacyPolicy .privacyPolicy__pagename
+{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 40px !important;
+/* identical to box height, or 118% */
+
+text-transform: uppercase !important;
+
+color: #000000 !important;
+margin-bottom: 33px;
+}
+.privacyPolicy .privacyPolicy__contentTitle{
+    font-family: "karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 24px !important;
+line-height: 28px !important;
+/* identical to box height, or 118% */
+
+text-transform: uppercase !important;
+
+color: #000000 !important;
+margin-bottom: 10px;
+}
+.privacyPolicy .privacyPolicy__contentContainer{
+    margin-bottom: 18px;
+}
+.privacyPolicy .privacyPolicy__content{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 18px !important;
+line-height: 30px !important;
+letter-spacing: 0.01em !important;
+
+color: #3B3B3B !important;
+
+}
+/* privacy policy styling end here */
+
+/* return Policy styling  start here */
+
+.returnPolicy{
+    padding: 33px 0px;
+}
+.returnPolicy .returnPolicy__pagename
+{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 40px !important;
+/* identical to box height, or 118% */
+
+text-transform: uppercase !important;
+
+color: #000000 !important;
+margin-bottom: 33px;
+}
+.returnPolicy .returnPolicy__contentTitle{
+    font-family: "karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 24px !important;
+line-height: 28px !important;
+/* identical to box height, or 118% */
+
+text-transform: uppercase !important;
+
+color: #000000 !important;
+margin-bottom: 10px;
+}
+
+.returnPolicy .returnPolicy__contentContainer{
+    margin-bottom: 40px;
+}
+.returnPolicy .returnPolicy__content{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 18px !important;
+line-height: 30px !important;
+letter-spacing: 0.01em !important;
+
+color: #3B3B3B !important;
+
+}
+
+/* return policy styling end here */
+
+/* ShopAll styling start here */
+.shopAll{
+    padding: 24px 0px;
+}
+.shopAll__mainContainer{
+    background-image:url('/images/HomeMain.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius:10px;
+    margin-bottom: 70px;
+}
+.shopAll__mainContainer .mainContainer__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+  }
+.shopAll__mainContainer .mainContainer__heading{
+    color:white;
+    padding:0px 0px;
+    font-size: 46px !important;
+    text-align: center;
+    width: 100%;
+    font-family: "Bebas Neue Pro" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    /* width:60%; */
+  }
+  .shopAll .shopAll__section{
+   margin-bottom: 70px;
+  }
+  .shopAll .mySwiper2 .imgContainer{
+    border: none;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: 130px;
+    background: rgba(18, 18, 29, 0.05);
+
+}
+.shopAll .mySwiper2 .swiper-slide {
+     height: 150px;
+}
+.shopAll .mySwiper2 img{
+    width: 85px;
+    height: 85px;
+    object-fit: contain;
+}
+.shopAll .swiper-button-next, .swiper-button-prev{
+    top: 43% !important;
+}
+
+.shopAll .shopAll__title{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 41px !important;
+margin-bottom: 30px;
+/* identical to box height */
+
+text-transform: uppercase !important;
+
+color: #000000 !important;
+
+}
+.shopAll__sellerSection .mySwiper2 .swiper-slide{
+    height: 200px;
+}
+.shopAll__headingContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.shopAll .shopAll__headingTitle{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 41px !important;
+
+/* identical to box height */
+
+text-transform: uppercase !important;
+
+color: #000000 !important;
+
+}
+.shopAll__headingBtn{
+    border: 1px solid #000000 !important;
+    border-radius: 86.0027px !important;
+    padding: 8px 30px !important;
+    font-family: "Nunito";
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 19px !important;
+text-align: center !important;
+
+color: #000000 !important;
+}
+.shopAll__headingBtn:hover{
+    background-color: #D8213B !important;
+    color: #FFFFFF !important;
+    border: 1px solid #D8213B !important;
+}
+
+.shopAll .swiper-button-prev, .shopAll .swiper-button-next{
+    top: 43% !important;
+}
+/* ShopAll styling end here */
+/* popularSeller Profile styling start here */
+.popularSeller{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.popularSeller .popularSeller_profileImg{
+    width: 130px;
+    height: 130px;
+    border-radius: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.popularSeller_profileTitle{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 24px !important;
+line-height: 16px !important;
+/* identical to box height, or 67% */
+
+text-align: center !important;
+
+/* Label Black/100% */
+
+color: #12121D !important;
+padding: 17px 0px;
+
+}
+.popularSeller_profileViewBtn {
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 18px !important;
+line-height: 16px !important;
+/* identical to box height, or 89% */
+
+text-align: center !important;
+
+/* Label Black/30% */
+
+color: rgba(18, 18, 29, 0.3) !important;
+}
+
+/* popularSeller Profile styling end here  */
+
+
+/* Reviews Styling start here */
+.Reviews__HeadingContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 65px !important;
+}
+.Reviews__writeReviewBox{
+    display: flex;
+    align-items: center;
+}
+.Reviews__writeReviewBox img{
+    height: 27px;
+    width: 27px;
+}
+.Reviews__writeReviewBox span{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 40px !important;
+/* identical to box height */
+
+text-align: right !important;
+
+color: #000000 !important;
+margin-left: 12px;
+}
+.Reviews__Heading{
+    font-family:"Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 41px !important;
+/* identical to box height */
+
+text-align: center !important;
+text-transform: uppercase !important;
+
+color: #000000 !important;
+
+}
+.Review{
+    border-bottom: 1px solid #B8B8B8;
+    margin-bottom: 35px !important;
+}
+ .Review__profileImg { 
+     height: 60px;
+    width: 60px;
+    background-size: cover;
+    border-radius: 60px;
+}
+ .Review__info{
+    display: flex;
+    align-items: center;
+}
+ .Review__profileInfo{
+    margin-left: 15px;
+}
+.Review__profileName{
+    font-family: "Bebas Neue Pro" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    line-height: 20px !important;
+    /* identical to box height, or 100% */
+    
+    text-transform: uppercase !important;
+    
+    color: #000000 !important;
+    
+}
+.Review__reviewStars{
+    /* display: none; */
+    margin-top: 9px;
+    display: flex;
+    align-items: center;
+}
+.Review__reviewStars .MuiRating-decimal{
+    color: #D8213B;
+}
+.Review__reviewStars .fa-star{
+   margin-right: 5px;
+   color: #D8213B;
+}
+.Review__rating{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 16px !important;
+line-height: 14px !important;
+/* identical to box height */
+margin-left: 5px !important;
+
+color: #999999 !important;
+}
+.Review__date{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+.Review__description{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 20px !important;
+line-height: 30px !important;
+/* or 150% */
+
+letter-spacing: 0.02em !important;
+text-transform: capitalize !important;
+
+color: #000000 !important;
+margin: 20px 0px 26px 0px !important;
+
+}
+/* Review Styling end here */
+/* custom Radio button style for complete profile and address profile */
+
+.radio-custom {
+    opacity: 0;
+    position: absolute;   
+}
+.radio-custom, .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top:5px;
+    margin-bottom:5px;
+    cursor: pointer;
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #12121D;
+}
+.radio-custom-label2{
+   margin-left: 35px;
+}
+.radio-custom-label {
+    position: relative;
+}
+.radio-custom + .radio-custom-label:before {
+    content: '';
+    background: #D8213B;
+    border: 2px solid #D8213B;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+    margin-right: 10px;
+    text-align: center;
+}
+.radio-custom + .radio-custom-label:before {
+    border-radius: 50%;
+}
+.radio-custom:checked + .radio-custom-label:before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    color: #FFFFFF;
+}
+.radio-custom:focus + .radio-custom-label {
+    /* outline: 1px solid #ddd; focus style */
+  }
+
+/* end here custom radio */
+/* CompleteProfile styling start here */
+.completeProfile__wrapper{
+    display: flex;
+    justify-content: center;
+}
+.signupProfileInfo__grid{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.completeProfile__title{
+    font-family: "Bebas Neue Pro" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 34px !important;
+    line-height: 41px !important;
+    text-transform: uppercase;
+    color: #000000 !important;
+    margin-bottom: 34px !important;
+}
+.completeProfile__profileImgTitle{
+    font-family: "karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #000000 !important;
+    margin-bottom: 18px !important;
+}
+.completeProfile__profileImgContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.completeProfile__profileImgBox{
+    width: 134px;
+    height: 134px;
+    border-radius: 100px;
+    background: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.completeProfile__profileImgBox .completeProfile__profileImgPreview{
+    width: 134px;
+    height: 134px;
+    border-radius: 100px;
+}
+.completeProfile__profileImgBox .completeProfile__profileImgPlaceholder{
+    
+    height: 50px;
+    border-radius: 100px;
+}
+.completeProfile__uploadProfileImg{
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+width: 35px;
+height: 35px;
+border-radius: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+bottom: 0px;
+right:0px;
+}
+.completeProfile__uploadProfileImg:hover{
+    border: 1px solid #D8213B;
+}
+.completeProfile__uploadProfileImg img{
+    height: 20px;
+    width: 100%;
+    object-fit: contain;
+}
+.completeProfile__primarilyType{
+    margin-bottom: 30px !important;
+}
+.completeProfile__primarilyType .primarilyType__title{
+    font-family: "karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #000000 !important;
+    margin-bottom: 18px !important;
+}
+.completeProfile__primarilyType .primarilyType__options{
+    display: flex;
+}
+
+.completeProfile .completeProfile__formRow{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px !important;
+}
+.completeProfile .completeProfile__formRow label{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: "Karla";
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #000000 !important;
+}
+.completeProfile .completeProfile__formRow input{
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: 1px solid #DEDEDE;
+    font-family: "Karla";
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #999999 !important;
+}
+.completeProfile .completeProfile__formRow input{
+   outline: none;
+}
+.completeProfile__billingAddress{
+    font-family: "Karla";
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #000000 !important;
+    margin-bottom: 30px !important;
+}
+.completeProfile__ShoeSizes{
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: 1px solid #DEDEDE;
+    font-family: "Karla";
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 16px !important;
+
+color: #000000 !important;
+
+}
+.completeProfile__ShoeSizes:focus{
+    outline: none;
+}
+.completeProfile__footer{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.completeProfile__footer .saveBtn{
+    width: 20% !important;
+    background: #D8213B;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05), 0px 4px 20px rgba(0, 0, 0, 0.03);
+    border-radius: 50px;
+    font-family: "Karla";
+font-style: normal !important;
+font-weight: bold !important; 
+font-size: 14px !important;
+line-height: 20px !important;
+color: #FFFFFF !important;
+padding: 10px 0px;
+
+}
+.completeProfile__footer .saveBtn:hover{
+    color: #D8213B !important;
+}
+/* CompleteProfile styling End here */
+
+
+/* addressProfile style start here */
+
+.addressProfile__title{
+    font-family: "Bebas Neue Pro" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 34px !important;
+    line-height: 41px !important;
+    text-transform: uppercase;
+    color: #000000 !important;
+    margin-bottom: 34px !important;
+}
+.addressProfile__profileImgTitle{
+    font-family: "karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #000000 !important;
+    margin-bottom: 18px !important;
+}
+.addressProfile__profileImgContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.addressProfile__profileImgBox{
+    width: 134px;
+    height: 134px;
+    border-radius: 100px;
+    background: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.addressProfile__profileImgBox .addressProfile__profileImgPreview{
+    width: 134px;
+    height: 134px;
+    border-radius: 100px;
+}
+.addressProfile__profileImgBox .addressProfile__profileImgPlaceholder{
+    height: 50px;
+    border-radius: 100px;
+}
+.addressProfile__uploadProfileImg{
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+width: 35px;
+height: 35px;
+border-radius: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+bottom: 0px;
+right:0px;
+}
+.addressProfile__uploadProfileImg img{
+    width: 100%;
+    height: 20px;
+    object-fit: contain;
+}
+.addressProfile__primarilyType{
+    margin-bottom: 30px !important;
+}
+.addressProfile__primarilyType .primarilyType__title{
+    font-family: "karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #000000 !important;
+    margin-bottom: 18px !important;
+}
+.addressProfile__primarilyType .primarilyType__options{
+    display: flex;
+}
+
+.addressProfile .addressProfile__formRow{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px !important;
+}
+.addressProfile .addressProfile__formRow label{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: "Karla";
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #000000 !important;
+}
+.addressProfile .addressProfile__formRow input{
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: 1px solid #DEDEDE;
+    font-family: "Karla";
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #999999 !important;
+}
+.addressProfile .addressProfile__formRow input{
+   outline: none;
+}
+.addressProfile__billingAddress{
+    font-family: "Karla";
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #000000 !important;
+    margin-bottom: 30px !important;
+}
+.addressProfile__ShoeSizes{
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: 1px solid #DEDEDE;
+    font-family: "Karla";
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 16px !important;
+
+color: #000000 !important;
+
+}
+.addressProfile__ShoeSizes:focus{
+    outline: none;
+}
+.addressProfile__footer{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.addressProfile__footer .saveBtn{
+    width: 20% !important;
+    background: #D8213B;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05), 0px 4px 20px rgba(0, 0, 0, 0.03);
+    border-radius: 50px;
+    font-family: "Karla";
+font-style: normal !important;
+font-weight: bold !important; 
+font-size: 14px !important;
+line-height: 20px !important;
+color: #FFFFFF !important;
+padding: 10px 0px;
+
+}
+.addressProfile__footer .saveBtn:hover{
+    color: #D8213B !important;
+}
+
+/* address Profile style end here */
+
+/* Track Order styling start from here */
+.trackYourOrder{
+    background: #F9F9F9;
+}
+.trackOrder{
+    padding: 50px 0px;
+}
+.trackOrder__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 40px 0px;
+   
+}
+.trackOrder__containerItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.trackOrder__heading{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 41px !important;
+text-transform: uppercase !important;
+color: #000000 !important;
+margin-bottom: 30px !important;
+}
+.trackOrder__title{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 41px !important;
+text-align: center !important;
+text-transform: uppercase !important;
+color: #000000 !important;
+margin-bottom: 15px !important;
+}
+.trackOrder__description{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 18px !important;
+text-align: center !important;
+letter-spacing: 0.02em !important;
+color: #000000 !important;
+margin-bottom: 30px !important;
+}
+.trackOrder__btn
+{
+    background: #D8213B !important;
+    color: #FFFFFF !important;
+    border-radius: 86.0027px !important;  
+    width: 200px;
+}
+.trackingDetail{
+    padding: 50px 0px;
+}
+.trackingDetail__headingContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.trackingDetail__heading{
+    font-family: "Bebas Neue Pro" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 34px !important;
+    line-height: 41px !important;
+    text-transform: uppercase !important;
+    color: #000000 !important;
+    margin-bottom: 30px !important;
+}
+.trackingDetail__container{
+    background: #FFFFFF;
+border-radius: 10px;
+padding: 30px 50px;
+}
+.trackingDetail__header{
+    justify-content: space-between;
+    padding-bottom: 30px !important;
+    border-bottom: 1px solid rgb(98 98 98 / 30%);;
+}
+.trackingDetail__headerItem{
+    border-bottom: 1px solid rgb(98 98 98 / 30%);;
+    /* max-width:32% !important; */
+    /* padding-bottom: 12px !important; */
+    padding:12px 12px 12px 0px !important;
+}
+.trackingDetail__headerItemHeading{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 18px !important;
+line-height: 21px !important;
+color: #202020 !important;
+margin-bottom: 15px !important;
+}
+.trackingDetail__headerItemValue{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 22px !important;
+    line-height: 26px !important;
+    color: #000000 !important; 
+}
+.trackingDetail__headerTrackingIdContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trackingDetail__headerTrackingIdContainer img{
+    width: 20px;
+}
+.trackingDetail__afterCopy{
+    transform: scale(1.3);
+
+}
+.timeline__lists{
+    padding: 0px !important;
+}
+.trackingDetail .MuiTimelineContent-root {
+    flex: 10;
+    padding: 6px 0px 6px 16px !important;
+}
+.trackingDetail .MuiTimelineItem-alignAlternate:nth-child(even) {
+    flex-direction: row;
+}
+.trackingDetail .MuiTimelineItem-oppositeContent {
+    text-align: left !important;
+    padding: 0px !important;
+}
+.trackingDetail .MuiTimelineItem-alignAlternate:nth-child(even) .MuiTimelineItem-content {
+    text-align: left;
+}
+.timeline{
+    padding: 26px 0px !important;
+}
+.timeline__time{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 16px !important;
+line-height: 19px !important;
+color: #202020 !important;
+
+}
+.timeline__icon{
+    width: 48px;
+    height: 48px;
+}
+.timeline__connector{
+    width: 11px !important;
+    height: 84px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: #D8213B !important;
+}
+.timeline__contentStepNo{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 16px !important;
+line-height: 19px !important;
+color: #202020 !important;
+margin-bottom: 9px !important;
+}
+.timeline__contentTitle{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 22px !important;
+line-height: 26px !important;
+color: #000000 !important;
+}
+.timeline__contentContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.timeline__contentStepIcon{
+    width: 50px;
+    height: 50px;
+}
+/* Track Order styling end here */
+/* seller Profile stylng start here */
+.sellerProfile__uploadBtn{
+    float: right !important;
+    background: #D8213B !important;
+    border-radius: 50px !important;
+    width: 100% !important;
+    max-width: 200px !important;
+    color: #FFFFFF !important;
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 0px !important;
+    padding: 20px !important;
+}
+.SELLERpROFILE__mainHeading{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 41px !important;
+/* identical to box height */
+
+text-transform: uppercase !important;
+
+color: #000000 !important;
+margin-bottom: 30px !important;
+}
+/* .sellerProfile__productCard{
+    box-shadow: 0px 0px 0px 1px #e8dfcd78;
+    padding: 10px;
+    border-radius: 10px;
+} */
+.sellerProfile__profileInfoSection{
+    display: flex;
+    padding-bottom: 42px !important;
+    border-bottom: 1px solid #B8B8B8;
+    margin-bottom: 20px !important;
+}
+.sellerProfile__img{
+    width: 117px;
+    height: 117px;
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.sellerProfile__badge{
+    width: 54px;
+    height: 54px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -14px;
+    right: -7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sellerProfile__infoRow{
+    display: flex;
+    justify-content: space-between;
+}
+.sellerProfile__name{
+    font-family:"Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 32px !important;
+line-height: 32px !important;
+text-transform: uppercase !important;
+color: #000000 !important;
+margin-bottom: 10px !important;
+}
+.sellerProfile__settingBtn{
+    border: 1px solid !important;
+    width: 150px !important;
+    border-radius: 50px !important;
+    font-family: "Nunito" !important;
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 19px !important;
+text-align: center !important;
+color: #000000 !important;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.sellerProfile__settingBtn img{
+    margin-right: 10px;
+}
+.sellerProfile__status{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 18px !important;
+line-height: 21px !important;
+color: #999999 !important;
+margin-bottom: 10px !important;
+text-align: left;
+}
+.sellerProfile__infoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 27px;
+    flex: 1;
+}
+.sellerProfile__infoMeta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sellerProfile__infoMetaRow{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.sellerProfile__infoMetaContent{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 18px !important;
+line-height: 24px !important;
+color: #000000 !important;
+}
+.sellerProfile__infoMetaTitle{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 21px !important;
+    color: #999999 !important;
+    margin-left: 5px !important;
+}
+.sellerProfile .makeStyles-root-47{
+    width: 100% !important;
+}
+.sellerProfile__header{
+    max-width: 500px !important;
+    border-radius: 10px !important;
+}
+.sellerProfile .MuiTab-textColorPrimary.Mui-selected{
+    color: #FFFFFF !important;
+    background: #D8213B !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+.sellerProfile .PrivateTabIndicator-root-47{
+    background-color: #D8213B !important;
+    display: none !important;
+}
+.sellerProfile__tabpaneBox{
+    padding: 24px 0px !important;
+}
+.sellerProfile__noListingMsg{
+    font-family: "Bebas Neue Pro" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 34px !important;
+    line-height: 41px !important;
+    /* identical to box height */
+    
+    text-transform: uppercase !important;
+    text-align: center;
+    color: #999999 !important;
+    margin-bottom: 30px !important;
+}
+.SP__productCrd__ImgContainer{
+    height: 188px;
+    position: relative;
+    border-radius: 5px;
+}
+.SP__productCrd__ImgContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.SP__productCard__actions{
+    position: absolute;
+    top: 0px;
+}
+.SP__productCard__title{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 16px !important;
+line-height: 1em !important;
+text-transform: capitalize !important;
+color: #000000 !important;
+flex: 1 !important;
+height: 3em !important;
+padding-right: 10px !important;
+/* text-align: center; */
+
+display: -webkit-box !important;
+overflow: hidden !important;
+-webkit-line-clamp: 3 !important;
+-webkit-box-orient: vertical !important;
+}
+.SP__productCard__price{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    text-transform: capitalize !important;
+    color: #000000 !important;
+}
+.SP__productCard__actionBtn{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 12px !important;
+line-height: 0px !important;
+display: flex !important;
+align-items: center !important;
+color: #FFFFFF !important;
+padding: 12px !important;
+background-color: #D8213B !important;
+border-radius: 30px !important;
+text-transform: capitalize !important;
+}
+.SP__productCard__actionBtnPreview{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 12px !important;
+line-height: 0px !important;
+display: flex !important;
+align-items: center !important;
+color: #FFFFFF !important;
+padding: 12px !important;
+background-color: #D8213B !important;
+border-radius: 30px !important;
+text-transform: capitalize !important;
+position: absolute;
+bottom: 15px;
+left: 15px;
+}
+.SP__productCard__actionBtn__DeltImg{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 32px;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.SP__productCard__actionBtn__DeltImg img{
+    object-fit: contain;
+    width: 15px;
+    height: 15px;
+}
+.SP__productCard__actionBtnGrey{
+    background: #eccfcf;
+    height: 8px;
+    width: 8px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+.SP__productCard__actionBtnGreen{
+    background: #24d821;
+    height: 8px;
+    width: 8px;
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+.SP__productCard__footerContainer{
+    display: flex;
+    padding: 5px 0px;
+    /* flex-direction: column;
+    align-items: center; */
+}
+.SP__productCard__actions{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px !important;
+}
+/* seller Profile styling end here */
+/* setting profile styling */
+.setting__header{
+    max-width: 700px !important;
+    border-radius: 10px !important;
+}
+
+/* setting profile styling end here */
+/* Custom MiniCart style start here */
+.customMiniCart{
+    border-bottom-color: #e6e6e6;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: #e6e6e6;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: #e6e6e6;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: #e6e6e6;
+    border-top-style: solid;
+    border-top-width: 1px;
+    max-width: 360px;
+    overflow: hidden;
+    padding: 15px !important;
+    border-radius: 8px;
+}
+.customMiniCart__items{
+    border-bottom: 1px solid #B8B8B8;
+    padding:  0px 10px 20px;
+}
+.customMiniCart__titleContainer{
+    display: flex;
+}
+.customMiniCart__title{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-transform: capitalize !important;
+    color: #000000 !important;
+    padding-right: 5px;
+}
+.customMiniCart__price{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    text-transform: capitalize !important;
+    color: #000000 !important;
+}
+.customMiniCart__actions{
+    display: flex;
+    align-items: center;
+}
+.customMiniCart__action{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #B8B8B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.customMiniCart__actionValue{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    text-transform: capitalize !important;
+    color: #000000 !important;
+    padding: 0px 5px !important;
+    width: 30px !important;
+    height: 25px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #B8B8B8;
+}
+.customMiniCart__options{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+.customMiniCart__optionBox{
+    margin-right: 20px;
+}
+.customMiniCart__optionTitle{
+    font-family: "Karla" !important;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-transform: capitalize;
+color: #000000;
+}
+.customMiniCart__optionValue{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    text-transform: capitalize !important;
+    color: #000000 !important;
+    margin: 0px 5px;
+}
+.customMiniCart__removeItem{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 19px !important;
+text-transform: capitalize !important;
+color: #000000 !important;
+padding-top: 10px !important;
+cursor: pointer;
+}
+.customMiniCart__footer{
+    padding: 20px 10px 0px;
+}
+.customMiniCart__subTotal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px !important;
+}
+.customMiniCart__subTotalTitle{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-transform: capitalize !important;
+    color: #000000 !important;
+    padding-right: 5px;
+}
+.customMiniCart__subTotalPrice{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    text-transform: capitalize !important;
+    color: #000000 !important;
+}
+.customMiniCart__checkoutBtn{
+    width: 100%;
+    border: 1px solid #000000 !important;
+    border-radius: 25px !important;
+    font-family: "Nunito" !important;
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 19px !important;
+text-align: center !important;
+color: #000000 !important;
+padding: 10px !important;
+margin-bottom: 10px !important;
+}
+.customMiniCart__checkoutBtn:hover{
+  background-color: #D8213B !important;
+  color: #FFFFFF !important;
+ 
+}
+.customMiniCart__footerText{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-transform: capitalize !important;
+    color: #000000 !important;
+    text-align: center;
+}
+/* Buyer Profile styling start here */
+.profile__switchMode{
+    margin-left: 51px;
+    font-size: 18px;
+   
+    color: #D8213B;
+    cursor: pointer;
+}
+.profile__switchMode:hover{
+     font-weight: bold;
+}
+.buyerProfile__test{
+   padding-bottom: 30px !important;
+   border-bottom: 1px solid #B8B8B8;
+   margin-bottom: 30px !important;
+}
+.buyerProfile__mainHeading{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 41px !important;
+display: flex;
+align-items: center;
+/* identical to box height */
+
+text-transform: uppercase !important;
+
+color: #000000 !important;
+margin-bottom: 30px !important;
+}
+.buyerProfile__profileInfoSection{
+    display: flex;
+    padding-bottom: 42px !important;
+    border-bottom: 1px solid #B8B8B8;
+    margin-bottom: 20px !important;
+}
+.buyerProfile__img{
+    width: 117px;
+    height: 117px;
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.buyerProfile__badge{
+    width: 54px;
+    height: 54px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -14px;
+    right: -7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buyerProfile__infoRow{
+    display: flex;
+    justify-content: space-between;
+}
+.buyerProfile__name{
+    font-family:"Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 32px !important;
+line-height: 32px !important;
+text-transform: uppercase !important;
+color: #000000 !important;
+margin-bottom: 10px !important;
+}
+.buyerProfile__settingBtn{
+    border: 1px solid !important;
+    width: 150px !important;
+    border-radius: 50px !important;
+    font-family: "Nunito" !important;
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 19px !important;
+text-align: center !important;
+color: #000000 !important;
+display: flex;
+justify-content: center;
+align-items: center;
+text-transform: capitalize !important;
+}
+.buyerProfile__mobSettingBtn{
+    border: 1px solid !important;
+    border-radius: 100px !important;
+    font-family: "Nunito" !important;
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 19px !important;
+text-align: center !important;
+color: #000000 !important;
+display: flex;
+justify-content: center;
+align-items: center;
+text-transform: capitalize !important;
+margin-left: auto !important;
+width: 40px !important;
+height: 40px !important;
+min-width: 0px !important;
+}
+.buyerProfile__mobSettingBtn .buyerProfile__profileIcon{
+  height: 15px;
+
+}
+.buyerProfile__settingBtn img{
+    margin-right: 10px;
+}
+.buyerProfile__status{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 18px !important;
+line-height: 21px !important;
+color: #999999 !important;
+margin-bottom: 10px !important;
+
+}
+.buyerProfile__infoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 27px;
+    flex: 1;
+}
+.buyerProfile__infoMeta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buyerProfile__infoMetaRow{
+    display: flex;
+    align-items: center;
+}
+.buyerProfile__infoMetaContent{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 18px !important;
+line-height: 24px !important;
+color: #000000 !important;
+}
+.buyerProfile__infoMetaTitle{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 21px !important;
+    color: #999999 !important;
+    margin-left: 5px !important;
+}
+.mt-0{
+    margin-top: 7.5px !important;
+}
+.mb-0{
+    margin-bottom: 0px !important;
+}
+.ml-15{
+    margin-left: 13px !important;
+}
+.mark-rquired{
+    color: #cd3f4c;
+font-size: 16px;
+}
+.inline-error{
+    margin-top: 15px; 
+    -webkit-font-smoothing: antialiased;
+    color: #cd3f4c;
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 400;
+    -webkit-letter-spacing: .02em;
+    -moz-letter-spacing: .02em;
+    -ms-letter-spacing: .02em;
+    letter-spacing: .02em;
+    line-height: 1.25;
+    font-family: 'Karla';
+}
+.buyerProfile{
+    padding-top: 30px;
+}
+.buyerProfile .makeStyles-root-47{
+    width: 100% !important;
+}
+.buyerProfile .buyerProfile__header{
+    max-width: 400px !important;
+    /* max-width: 200px !important; */
+    border-radius: 10px;
+}
+.buyer__wishListMediaContainer{
+    position: relative;
+}
+.buyer__wishListRemoveOuter{
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-color: #FFFFFF;
+}
+.buyerProfile .MuiTab-textColorPrimary.Mui-selected{
+    color: #FFFFFF !important;
+    background: #D8213B !important;
+    border-radius: 10px;
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 14px !important;
+line-height: 20px !important;
+text-transform: capitalize !important;
+
+    /* border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important; */
+}
+.buyerProfile .PrivateTabIndicator-root-47{
+    background-color: #D8213B !important;
+    display: none !important;
+}
+.buyerProfile__tabPane{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    text-transform: capitalize !important;
+}
+.buyerProfile__tabpaneBox{
+    padding: 24px 0px !important;
+}
+.BP__productCrd__ImgContainer{
+    height: 188px;
+    position: relative;
+    border-radius: 5px;
+}
+.BP__productCrd__ImgContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.BP__productCard__actions{
+    position: absolute;
+    top: 0px;
+}
+.BP__productCard__title{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 16px !important;
+line-height: 19px !important;
+text-transform: capitalize !important;
+color: #000000 !important;
+flex: 1 !important;
+padding-right: 10px !important;
+}
+.BP__productCard__price{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    text-transform: capitalize !important;
+    color: #000000 !important;
+}
+.BP__productCard__actionBtn{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 12px !important;
+line-height: 0px !important;
+display: flex !important;
+align-items: center !important;
+color: #FFFFFF !important;
+padding: 12px !important;
+background-color: #D8213B !important;
+border-radius: 30px !important;
+}
+.BP__productCard__footerContainer{
+    display: flex;
+    padding: 5px 0px;
+}
+.BP__productCard__actions{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px !important;
+}
+/* seller Profile styling end here */
+/* search Product styling start here */
+.searchProduct__hideWrapper{
+    visibility: hidden;
+}
+.cart-box-custom{
+    box-shadow: 0px 5px 20px 3px #0000001a;
+    border-radius: 10px;
+
+}
+.customMiniCart__titleContainer{
+    padding-top: 20px;
+}
+.clr-grey{
+    color:#a2a2a2;
+}
+
+.cart-box-custom > div{
+    border-radius: 10px;
+}
+  .searchProduct__wrapper {
+    position: absolute;
+    top: 90px;
+    z-index: 1111111;
+    width: 100%;
+    left: 0;
+    background: #ffffff;
+
+    box-shadow: 0px 16px 15px 5px #0000000f;
+        max-height: 70vh;
+    overflow: auto;
+    overflow-x: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   }
+/* end here */
+/* Custom Mini Cart Style end here */
+/* Address Book style */
+.customAddressBook{
+    width:100%
+}
+.customAddressBook__containerCard{
+    margin-bottom: 30px !important;
+}
+.customAddressBook__Card{
+    padding: 15px !important;
+    border: 1px solid #B8B8B8;
+    border-radius: 10px !important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.customAddressBook__titleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px !important;
+}
+.customAddressBook__title{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 14px !important;
+line-height: 16px !important;
+text-transform: capitalize !important;
+
+color: #000000 !important;
+
+}
+.customAddressBook__action{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 20px !important;
+display: flex !important;
+align-items: center !important;
+text-align: right !important;
+color: #D8213B !important;
+cursor: pointer;
+}
+.customAddressBook__address {
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 16px !important;
+text-transform: capitalize !important;
+
+color: #202020 !important;
+margin-bottom: 15px !important;
+}
+.customAddressBook__phone{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 16px !important;
+text-transform: capitalize !important;
+
+color: #202020 !important;
+}
+.customAddressBook__addAddress{
+    font-family: "karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 14px !important;
+line-height: 20px !important;
+display: flex !important;
+align-items: center !important;
+color: #D8213B !important;
+padding: 15px 19px !important;
+background: #FFFFFF !important;
+border: 1px solid #B8B8B8 !important;
+box-sizing: border-box !important;
+border-radius: 5px !important;
+text-transform: capitalize !important;
+max-width: 200px;
+}
+.customAddressBook__addAddress:hover{
+    border: 1px solid #D8213B !important;
+}
+.customAddressBook__addAddress img{
+    width: 17px;
+    height: 17px;
+    margin-right: 8px;
+}
+.CAB__addAddress__checkboxRow{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.CAB__addAddress__checkboxRow input{
+    width: 20px;
+}
+.CAB__addAddress__formRow{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px !important;
+    animation: fadeIn linear 0.5s;
+    -webkit-animation: fadeIn linear 0.5s;
+    -moz-animation: fadeIn linear 0.5s;
+    -o-animation: fadeIn linear 0.5s;
+    -ms-animation: fadeIn linear 0.5s;
+    
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+.CAB__addAddress__formRow label{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: "Karla";
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #000000 !important;
+}
+.CAB__addAddress__formRow input{
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: 1px solid #DEDEDE;
+    font-family: "Karla";
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #999999 !important;
+}
+.CAB__addAddress__formRow input{
+   outline: none;
+}
+.CAB__addAddress__error{
+    padding: 0px 20px 0px !important;
+    margin: 0px;
+    font-size: 13px;
+    color: red;
+}
+.CAB__addAddress__Grid{
+    justify-content: space-between !important;
+}
+.CAB__addAddress__formBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.CAB__addAddress__formBtn Button{
+    padding: 5px 20px !important;
+    border-radius: 25px !important;
+    border: 1px solid !important;
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    cursor: pointer;
+}
+.CAB__addAddress__formBtnCancel{
+    margin-right: 10px !important
+}
+.CAB__addAddress__formRow select{
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: 1px solid #DEDEDE;
+    font-family: "Karla";
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #999999 !important;
+}
+/* Address Book end here */
+
+/* Upload Product Form style start here*/
+.uploadProduct__page{
+    background: #F9F9F9;
+}
+.uploadProduct{
+    padding:30px 0px;
+}
+.uploadProductForm__prev{
+    max-width: 200px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    max-height: 150px;
+    margin-left: 20px;
+}
+.uploadProductForm__formRow select{
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: 1px solid #DEDEDE;
+    font-family: "Karla";
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #999999 !important;
+}
+.uploadProductForm__formRow{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px !important;
+}
+.uploadProductForm__formRow label{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: "Karla";
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #000000 !important;
+}
+.uploadProductForm__formRow input{
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: 1px solid #DEDEDE;
+    font-family: "Karla";
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #999999 !important;
+}
+.uploadProductForm__formRow input{
+   outline: none;
+}
+.uploadProductForm__formRow__Custom .MuiInputBase-root{
+    border: 1px solid #DEDEDE !important;
+    border-radius: 25px !important;
+    padding: 0px 20px !important;
+}
+.uploadProductForm__formRow__Custom input{
+    border: none !important;
+    padding-left: 5px !important;
+}
+.uploadProductForm__formRow__Custom .MuiInput-underline:before{
+    border-bottom: none !important;
+}
+.uploadProductForm__formRow__Custom .MuiInput-underline:after{
+    border-bottom: none !important;
+}
+.uploadProductForm__feeContainer{
+    padding: 0px 20px !important;
+}
+.uploadProductForm__infoCard{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DEDEDE;
+    padding: 0px 0px 10px 0px;
+    margin-bottom: 13px !important;
+}
+.uploadProductForm__infoData{
+    font-weight: 700 !important;
+    
+}
+.uploadProductForm__infoData input{
+    border: none;
+    text-align: right;
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 16px !important;
+text-align: right !important;
+text-transform: capitalize !important;
+color: #999999 !important;
+
+}
+.uploadProductForm__infoData input:focus{
+    outline: none;
+}
+.uploadProductForm__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 43px;
+}
+.uploadProductForm__footerBtn{
+    border: 1px solid !important;
+    padding: 10px 20px !important;
+    min-width: 150px !important;
+    border-radius: 25px !important;
+    font-family: "Karla" !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    text-transform: capitalize !important;
+}
+.uploadProductForm__footerBackBtn{
+    background-color :#F3F3F4 !important;
+    border: none !important;
+}
+.uploadProductForm__footerNextBtn{
+   background-color: #D8213B !important;
+   color: #ffffff !important;
+}
+.ImageStepCard__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.uploadProductImages .ImageStepCard{
+    width: 167px;
+    height: 147px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin: 11px 16px 11px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ImageStepCard__highlight{
+    box-shadow: 0px 0px 8px 1px #D8213B;
+    
+}
+
+.uploadProductImages .ImageStepCard__title{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 16px !important;
+line-height: 19px !important;
+text-align: center !important;
+color: #000000 !important;
+margin-top: 15px !important;
+}
+.ImageStepCard__imgError{
+    color: #D8213B;
+    font-size: 12px;
+}
+.ImageStepCard__imgSuccess{
+    color: green;
+    font-size: 12px;
+}
+.uploadProductImages .ImageStepCard__uploadBtn{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+.uploadProductImages .ImageStepCard__tick{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+.uploadProductImagesBox{
+    margin-left: 30px;
+}
+.uploadProductImagesBox__title{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 16px !important;
+line-height: 19px !important;
+color: #000000 !important;
+margin-bottom: 9px !important;
+}
+.uploadProductImagesBox__description{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 20px !important;
+color: rgba(18, 18, 29, 0.6) !important;
+margin-bottom: 20px !important;
+}
+.uploadProductImagesBox__prev{
+    width: 100%;
+    margin-bottom: 24px;
+    height: 150px;
+    border-radius: 16px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.uploadProductImagesBox__deleteImg{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 32px;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.uploadProductImagesBox__virtualBtn{
+    background: rgba(18, 18, 29, 0.05);
+border-radius: 16px;
+height: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+cursor: pointer;
+}
+.uploadProductImagesBox__virtualBtnIcon{
+    width: 14px;
+    height: 14px;
+    margin-bottom: 13px;
+}
+.uploadProductImagesBox__fileInput{
+    visibility: hidden;
+}
+.uploadProductImagesBox__virtualBtnTitle{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 20px !important;
+display: flex !important;
+align-items: center !important;
+text-align: center !important;
+color: #12121D !important;
+}
+.uploadProductImagesBox__submitBtn{
+    width: 100%;
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+    border: 1px solid !important;
+    margin: 10px 0px !important;
+    padding: 10px 0px !important;
+    border-radius: 86px !important;
+}
+.uploadProductImagesBox__submitBtn:hover{
+    color: #FFFFFF !important;
+    background: #D8213B !important;
+}
+/* Upload Product form end here */
+/* custom select Option styling*/
+.css-1qarkz8-control{
+    border: 1px solid #DEDEDE !important;
+    box-shadow: 0px 0px  #DEDEDE !important;
+}
+.css-1qarkz8-control:hover{
+    border: 1px solid #DEDEDE !important;
+    box-shadow: 0px 0px  #DEDEDE !important;
+}
+.css-1qarkz8-control:focus{
+    border: 1px solid #DEDEDE !important;
+    box-shadow: 1px solid #DEDEDE !important;
+}
+
+
+/* start Verification screen styling start here */
+.statrtVerification{
+    background: #F9F9F9;
+    
+}
+.statrtVerification__wrapper{
+    padding: 50px 0px !important;
+}
+.statrtVerification__heading{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 41px !important;
+text-transform: uppercase !important;
+color: #000000 !important;
+margin-bottom: 30px !important;
+}
+.statrtVerification__icon{
+    margin-bottom: 50px !important;
+}
+.statrtVerification__Container{
+    padding: 50px !important;
+    background-color: #FFFFFF !important;
+    border-radius: 10px !important;
+}
+.statrtVerification__title
+{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 36px !important;
+line-height: 42px !important;
+letter-spacing: 0.01em !important;
+color: #000000 !important;
+margin-bottom: 15px !important;
+}
+.statrtVerification__description{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 24px !important;
+line-height: 35px !important;
+letter-spacing: 0.01em !important;
+color: #3B3B3B !important;
+margin-bottom: 30px !important;
+}
+.statrtVerification__list{
+    margin-bottom: 50px;
+}
+.statrtVerification__liststep
+{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 24px !important;
+line-height: 40px !important;
+color: #3B3B3B !important;
+}
+.statrtVerification__btn{
+    background-color: #D8213B !important;
+    color: #FFFFFF !important;
+    border-radius: 80px !important;
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 18px !important;
+line-height: 20px !important;
+text-transform: capitalize !important;
+width: 100% !important;
+    max-width: 200px !important;
+    float: right !important;
+    padding: 12px 0px !important;
+}
+
+
+/* verification success styling start here */
+
+.verificationSuccess{
+    background: #F9F9F9;
+    
+}
+.verificationSuccess__wrapper{
+    padding: 50px 0px !important;
+}
+.verificationSuccess__heading{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 41px !important;
+text-transform: uppercase !important;
+color: #000000 !important;
+margin-bottom: 30px !important;
+}
+.verificationSuccess__icon{
+    margin-bottom: 50px !important;
+}
+.verificationSuccess__Container{
+    padding: 50px !important;
+    background-color: #FFFFFF !important;
+    border-radius: 10px !important;
+}
+.verificationSuccess__title
+{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 36px !important;
+line-height: 42px !important;
+letter-spacing: 0.01em !important;
+color: #000000 !important;
+margin-bottom: 15px !important;
+}
+.verificationSuccess__description{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 24px !important;
+line-height: 35px !important;
+letter-spacing: 0.01em !important;
+color: #3B3B3B !important;
+margin-bottom: 30px !important;
+}
+.verificationSuccess__list{
+    margin-bottom: 50px;
+}
+.verificationSuccess__listRow{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px !important;
+}
+.verificationSuccess__listIcon{
+    width: 35px !important;
+    height: 35px !important;
+    margin-right: 12px;
+}
+.verificationSuccess__liststep
+{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 24px !important;
+line-height: 40px !important;
+color: #3B3B3B !important;
+margin: 0px !important;
+}
+.verificationSuccess__btn{
+    background-color: #D8213B !important;
+    color: #FFFFFF !important;
+    border-radius: 80px !important;
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 18px !important;
+line-height: 20px !important;
+text-transform: capitalize !important;
+width: 100% !important;
+    max-width: 150px !important;
+    float: right !important;
+    padding: 12px 0px !important;
+}
+
+/* verificationError styling start here */
+
+.verificationError{
+    background: #F9F9F9;
+    
+}
+.verificationError__wrapper{
+    padding: 50px 0px !important;
+}
+.verificationError__heading{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 41px !important;
+text-transform: uppercase !important;
+color: #000000 !important;
+margin-bottom: 30px !important;
+}
+.verificationError__icon{
+    margin-bottom: 50px !important;
+}
+.verificationError__Container{
+    padding: 50px !important;
+    background-color: #FFFFFF !important;
+    border-radius: 10px !important;
+}
+.verificationError__title
+{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 36px !important;
+line-height: 42px !important;
+letter-spacing: 0.01em !important;
+color: #000000 !important;
+margin-bottom: 15px !important;
+}
+.verificationError__description{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 24px !important;
+line-height: 35px !important;
+letter-spacing: 0.01em !important;
+color: #3B3B3B !important;
+margin-bottom: 30px !important;
+}
+.verificationError__list{
+    margin-bottom: 50px;
+}
+.verificationError__listRow{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px !important;
+}
+.verificationError__listIcon{
+    width: 35px !important;
+    height: 35px !important;
+    margin-right: 12px;
+}
+.verificationError__liststep
+{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 24px !important;
+line-height: 40px !important;
+color: #3B3B3B !important;
+margin: 0px !important;
+}
+.verificationError__btn{
+    background-color: #D8213B !important;
+    color: #FFFFFF !important;
+    border-radius: 80px !important;
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 18px !important;
+line-height: 20px !important;
+text-transform: capitalize !important;
+width: 100% !important;
+    max-width: 150px !important;
+    float: right !important;
+    padding: 12px 0px !important;
+}
+/* custom select Option styling end here*/
+/* chat styling start here */
+.chat{
+    background: #F9F9F9 !important;
+    padding-top: 33px !important;
+}
+.chat__suggestionsWrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.chat__suggestionsTitle{
+    font-family: "SF Pro Text";
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 12px !important;
+line-height: 16px !important;
+display: flex !important;
+align-items: center !important;
+color: rgba(18, 18, 29, 0.3) !important;
+margin-bottom: 12px !important;
+margin-left: 10px !important;
+}
+.chat__suggestions{
+    cursor: pointer;
+    display: inline-block;
+    padding: 12px !important;
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 16px !important;
+text-transform: capitalize !important;
+margin: 5px 10px !important;
+color: #000000 !important;
+border: 0.5px solid #8C8C8C !important;
+box-sizing: border-box !important;
+border-radius: 5px !important;
+}
+.chat__suggestionsDisabled{
+    cursor: pointer;
+    display: inline-block;
+    padding: 12px !important;
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 16px !important;
+text-transform: capitalize !important;
+margin: 5px 10px !important;
+color: #00000052 !important;
+border: 0.5px solid #8C8C8C !important;
+box-sizing: border-box !important;
+border-radius: 5px !important;
+background-color: #F3F3F4 !important;
+}
+.chat__mainHeading{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 41px !important;
+/* identical to box height */
+margin-top: 33px !important;
+text-transform: uppercase !important;
+
+color: #000000 !important;
+margin-bottom: 33px !important;
+}
+.chat__row{
+    justify-content: center;
+}
+.chatBox__title{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 24px !important;
+line-height: 20px !important;
+color: #000000 !important;
+margin: 25px 20px !important;
+}
+.chatBox__messageHeader{
+    padding: 14px 20px !important;
+    display: flex;
+    align-items: center;
+}
+.CB__list{
+    padding: 0px !important;
+}
+.CB__listItem{
+    padding: 0px !important;
+}
+.CB__listItemText{
+    margin: 0px !important;
+}
+.CB__listItemIcon{
+   min-width: 0px !important;
+}
+.CB__MH__dropdownIcon{
+    position: absolute;
+    right: 0%;
+    bottom: 25%;
+    height: 20px;
+}
+.CB__MH__userName{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 24px !important;
+    line-height: 20px !important;
+    color: #000000 !important; 
+    margin-left: 12px !important;
+}
+.CB__MH__userProfile{
+    width: 35px !important;
+    height: 35px !important;
+
+}
+.CB__MH__PTitle{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 10px !important;
+line-height: 12px !important;
+text-transform: capitalize !important;
+color: #000000 !important;
+}
+.CB__MH__PPrice{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 12px !important;
+line-height: 14px !important;
+text-transform: capitalize !important;
+color: #202020 !important;
+}
+.CB__MH__offerFlag{
+    width: 6px!important;
+    height: 6px!important;
+    border-radius: 100px!important;
+    background-color: green !important;
+    position: absolute !important;
+    right: 5px !important;
+    top: 5px !important;
+}
+.nav__Notification{
+    display: flex;
+    position: relative;
+}
+.custom__chatBoxHeader{
+    padding: 5px !important;
+    border-radius: 10px !important;
+    background: #f2f2f3 !important;
+}
+.chatBox__messageHeader__right{
+    display: flex;
+    position: relative;
+  
+}
+.CB__MH__productImg{
+    /* width: 40px !important; */
+    height: 40px !important;
+    border-radius: 5px !important;
+}
+.CB__MH__infoContainer{
+    margin-left: 10px !important;
+    width: 100%;
+}
+.CB__contacts_ProfileImg{
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+}
+.CB__contacts_notifyFlag{
+    width: 6px!important;
+    height: 6px!important;
+    border-radius: 100px!important;
+    background-color: green !important;
+    position: absolute !important;
+    right: 0px;
+    top: 5px;
+}
+.CB__contacts_userName{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 16px !important;
+line-height: 20px !important;
+color: #000000 !important;
+}
+.CB__contacts_infoTime{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 11px !important;
+line-height: 14px !important;
+text-align: right !important;
+color: #626262 !important;
+
+}
+.CB__contacts_userDesc{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 11px !important;
+line-height: 14px !important;
+color: #626262 !important;
+
+}
+.chatBox__contacts{
+    display: flex;
+    margin: 0px 20px !important;
+    padding: 11px 0px !important;
+    border-bottom: 1px solid #B8B8B8;
+    position: relative;
+}
+.CB__contacts_infoContainer{
+    margin-left: 10px !important;
+    width:100% !important;
+}
+.CB__contacts_infoRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px !important;
+}
+.CB__MA__infoRow{
+    flex-direction: row-reverse;
+    display: flex;
+   
+}
+.CB__MA__infoContainer{
+    margin-right: 10px !important;
+}
+.CB__MA__MText{
+    padding: 14px 17px 10px 14px !important;
+    border-top-left-radius: 20px !important;
+    background: #D8213B !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+   
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 16px !important;
+
+color: #FFFFFF !important;
+margin-bottom: 8px !important;
+text-align: left !important;
+
+}
+.CB__MA__infoRowLeft{
+    display: flex;
+   
+}
+.CB__MA__infoContainerLeft{
+    margin-left: 10px !important;
+}
+.CB__MA__MTextLeft{
+    padding: 14px 17px 10px 14px !important;
+    border-top-right-radius: 20px !important;
+    background: rgba(18, 18, 29, 0.05) !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 16px !important;
+color: #202020 !important;
+margin-bottom: 8px !important;
+/* max-width: 90% !important; */
+text-align: left !important;
+}
+.CB__MA_infoTime{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 10px !important;
+line-height: 12px !important;
+text-transform: capitalize !important;
+color: #B0B0B4 !important;
+}
+.chat__footer .acceptBtn{
+    width: 100% !important;
+    background: #D8213B;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05), 0px 4px 20px rgba(0, 0, 0, 0.03);
+    border-radius: 50px;
+    font-family: "Karla";
+font-style: normal !important;
+font-weight: bold !important; 
+font-size: 14px !important;
+line-height: 20px !important;
+color: #FFFFFF !important;
+padding: 10px 0px;
+text-transform: capitalize !important;
+}
+.chatBtn__disabled{
+    width: 100% !important;
+    background: #F3F3F4 !important;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05), 0px 4px 20px rgba(0, 0, 0, 0.03) !important;
+    border-radius: 50px !important;
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important; 
+font-size: 14px !important;
+line-height: 20px !important;
+color: #00000052 !important;
+padding: 10px 0px !important;
+text-transform: capitalize !important;
+}
+.chat__footer .counterOfferBtn{
+    width: 100% !important;
+    background: #F3F3F4 !important;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05), 0px 4px 20px rgba(0, 0, 0, 0.03);
+    border-radius: 50px;
+    font-family: "Karla";
+font-style: normal !important;
+font-weight: bold !important; 
+font-size: 14px !important;
+line-height: 20px !important;
+color: #D8213B !important;
+padding: 10px 0px;
+text-transform: capitalize !important;
+}
+.chat__footer .gOToTossBtn{
+    width: 100% !important;
+    background: #FFFFFF !important;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05), 0px 4px 20px rgba(0, 0, 0, 0.03);
+    border-radius: 50px;
+    font-family: "Karla";
+font-style: normal !important;
+font-weight: bold !important; 
+font-size: 14px !important;
+line-height: 20px !important;
+color: #D8213B !important;
+padding: 10px 0px;
+border: 1px solid #D8213B !important;
+text-transform: capitalize !important;
+
+}
+.chat__footer .acceptBtn:hover{
+    color: #D8213B !important;
+}
+.chatFooter__Btns{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px !important;
+}
+.chatFooter__BtnWrapper{
+    padding: 5px 10px;
+}
+/* pagination styling start here */
+.pagination-container {
+    display: flex;
+    list-style-type: none;
+}
+.pagination-container .pagination-item {
+    padding: 0 12px;
+    height: 32px;
+    text-align: center;
+    margin: auto 4px;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    letter-spacing: 0.01071em;
+    border-radius: 16px;
+    line-height: 1.43;
+    font-size: 13px;
+    min-width: 32px;
+}
+.pagination-container .pagination-item.dots:hover {
+    background-color: transparent;
+    cursor: default;
+}
+.pagination-container .pagination-item:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+}
+.pagination-container .pagination-item.selected {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+.pagination-container .pagination-item .arrow::before {
+    position: relative;
+   /* top: 3pt;
+    Uncomment this to lower the icons as requested in comments*/
+    content: '';
+   /* By using an em scale, the arrows will size with the font */
+    display: inline-block;
+    width: 0.4em;
+    height: 0.4em;
+    border-right: 0.12em solid rgba(0, 0, 0, 0.87);
+    border-top: 0.12em solid rgba(0, 0, 0, 0.87);
+}
+.pagination-container .pagination-item .arrow.left {
+    transform: rotate(-135deg) translate(-50%);
+}
+.pagination-container .pagination-item .arrow.right {
+    transform: rotate(45deg);
+}
+.pagination-container .pagination-item.disabled {
+    pointer-events: none;
+}
+.pagination-container .pagination-item.disabled .arrow::before {
+    border-right: 0.12em solid rgba(0, 0, 0, 0.43);
+    border-top: 0.12em solid rgba(0, 0, 0, 0.43);
+}
+.pagination-container .pagination-item.disabled:hover {
+    background-color: transparent;
+    cursor: default;
+}
+
+
+/* pagination styling end here */
+/* order detail styling start here */
+.newOrderDetail__title{
+    /* text-align: center !important; */
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 41px !important;
+text-transform: uppercase !important;
+color: #000000 !important;
+text-transform: capitalize !important;
+margin-bottom: 30px !important;
+}
+.newOrderDetail__freeShipWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.newOrderDetail__freeShipContainer{
+    display: flex;
+    margin: 0px auto;
+}
+.newOrderDetail__freeShipWrapper input{
+    border-radius: 100px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    font-size: 14px !important;
+    padding: 10px !important;
+    font-family: "Karla" !important;
+font-style: normal;
+font-weight: normal;
+
+}
+.newOrderDetail__freeShipWrapper input:focus{
+    outline:none;
+}
+.orderDetail__dialog .MuiDialog-paper{
+    border-radius: 10px !important;
+}
+.newOrderDetail{
+    padding: 30px !important;
+}
+.newOrderDetail__row{
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+}
+.newOrderDetail__heading{
+    font-size: 0.8571428571428571rem !important;
+    font-family: 'karla', sans-serif !important;
+    font-weight: 700 !important;
+    line-height: 1.66 !important;
+    color: #3c3c3c !important;
+    /* "Bebas Neue Pro" */
+    /* font-family: "karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 18px !important;
+line-height: 29px !important;
+display: flex !important;
+align-items: center !important;
+color: #3B3B3B !important; */
+}
+.newOrderDetail__description{
+    font-size: 0.8571428571428571rem !important;
+    font-family: 'karla', sans-serif !important;
+    font-weight: 400 !important;
+    line-height: 1.66 !important;
+    color: #3c3c3c !important;
+    margin-left: 5px !important;
+    /* font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 29px !important;
+text-transform: capitalize !important;
+color: #B0B0B4 !important; */
+}
+.newOrderDetail__addressHeading{
+    font-size: 1rem !important;
+    font-family: 'karla', sans-serif !important;
+    font-weight: 700 !important;
+    line-height: 1.66 !important;
+    color: #3c3c3c !important;
+}
+.newOrderDetail__addressDescription{
+    font-size: 0.8571428571428571rem !important;
+    font-family: 'karla', sans-serif !important;
+    font-weight: 400 !important;
+    line-height: 1.66 !important;
+    color: #3c3c3c !important;
+   
+}
+.newOrderDetail__footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.newOrderDetail__footerBtn{
+    border: 1px solid !important;
+    border-radius: 80px !important;
+    width: 100% !important;
+    max-width: 150px !important;
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 14px !important;
+line-height: 20px !important;
+display: flex !important;
+align-items: center !important;
+text-align: center !important;
+color: #626262 !important;
+text-transform: capitalize !important;
+}
+.newOrderDetail__footerBackBtn{
+    background-color: #F3F3F4 !important;
+}
+.newOrderDetail__footerCreateLabelBtn{
+    background-color: #F3F3F4 !important;
+    margin-left: auto !important;
+}
+.newOrderDetail__freeShipTitle{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 34px !important;
+line-height: 41px !important;
+/* identical to box height */
+
+text-align: center !important;
+text-transform: uppercase !important;
+
+color: #000000 !important;
+text-transform: capitalize !important;
+margin-bottom: 15px !important;
+}
+.newOrderDetail__footerAddTrackingBtn{
+    background-color: #F3F3F4 !important;
+    margin-left: auto !important;
+    margin-left: 5px !important;
+}
+.newOrderDetail__footerDownloadLabelBtn{
+    background-color: #F3F3F4 !important;
+    margin-left: auto !important;
+    text-decoration: none;
+    padding: 6px;
+    justify-content: center;
+}
+.newOrderDetail__footerAcceptBtn{
+    background-color: #D8213B !important;
+    color: #FFFFFF !important;
+    margin-left: 10px !important;
+}
+.newOrderDetail__table{
+    width: 100%;
+}
+.newOrderDetail__table th {
+    text-align: left;
+}
+.newOrderDetail__table tbody td{
+    padding: 16px 0px !important;
+    /* rgba(18, 18, 29, 0.6); */
+    color: #3c3c3c;
+    font-size: 14px;
+    font-family: "karla";
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0.28px;
+}
+.newOrderDetail__table tbody tr:nth-child(odd){
+    background-color: #fafafa;
+}
+.newOrderDetail__table tbody tr:hover{
+    background-color: #f5f5f5;
+}
+/* order detail styling end here */
+
+/* order place styling start here */
+
+.orderHeader__row{
+    display: flex;
+    flex-direction: column;
+}
+.orderHeader__row .OrderCardStatusBadge-orderStatusNew-87{
+    font-family: 'Karla';
+    font-size: 14px;
+    height: 24px;
+}
+.order__shippingAddressContainer{
+    display: flex;
+    border-bottom: solid 1px #e6e6e6 !important;
+    padding-bottom: 20px !important;
+}
+.order__shippingAddress{
+    font-size: 16px !important;
+    font-style: normal !important;
+    color: #3c3c3c !important;
+    font-family:"karla" !important;
+    letter-spacing: .03em !important;
+    line-height: 1.5 !important;
+    margin-left: 10px !important;
+   
+}
+/* order place styling end here */
+/* Custom order item style */
+.customOrderBox{
+    border-bottom: solid 1px #e6e6e6 !important;
+    margin-bottom: 16px !important;
+}
+.customOrderBox__items{
+    display: flex;
+    position: relative;
+}
+.customOrderBox__rightContainer{
+    width:100%;
+    margin-left: 25px;
+}
+.customOrderBox__titleContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.customOrderBox__title {
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-transform: capitalize !important;
+    color: #000000 !important;
+    padding-right: 10px;
+}
+.customOrderBox__price{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    text-transform: capitalize !important;
+    color: #000000 !important;
+}
+.customOrderBox__imagebox{
+    height: 50px;
+    /* width: 120px; */
+    background: #ffffff;
+border-radius: 10px;
+position: relative;
+}
+.customOrderBox__image{
+    
+    border: 1px solid #f2f2f2;
+    height: 50px;
+    width: 50px;
+    background:#ffffff;
+border-radius: 10px;
+object-fit: contain;
+}
+.customOrderBox__options{
+    display: flex;
+    flex-direction: column;
+   
+    padding: 10px 0px;
+}
+.customOrderBox__optionBox{
+    /* margin-right: 20px; */
+}
+.customOrderBox__optionTitle{
+    font-family: "Karla" !important;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-transform: capitalize;
+color: #000000;
+}
+.customOrderBox__optionValue{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    text-transform: capitalize !important;
+    color: #000000 !important;
+    margin-left: 5px;
+}
+.customOrderBox__trackOrder{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 14px !important;
+line-height: 20px !important;
+color: #FFFFFF !important;
+background-color: #D8213B !important;
+position: absolute !important;
+right: 0px;
+bottom: 10px;
+border-radius: 10px !important;
+width: 100%;
+    max-width: 150px;
+    text-transform: capitalize !important;
+}
+.customOrderBox__footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    border-top: solid 1px #e6e6e6 !important;
+}
+.customOrderBox__footer .customOrderBox__optionTitle{
+    color: #B0B0B4 !important;
+    font-size: 14px !important;
+}
+.walletCard{
+    max-width: 315px;
+    width: 100%;
+    padding: 30px !important;
+    background: #FFFFFF;
+box-shadow: 0px 18px 80px rgba(0, 0, 0, 0.08), 0px 4.02054px 17.869px rgba(0, 0, 0, 0.0476886), 0px 1.19702px 5.32008px rgba(0, 0, 0, 0.0323114);
+border-radius: 16px;
+margin-bottom: 10px !important;
+margin-left: auto;
+    margin-right: auto;
+}
+.walletCard__row{
+    display: flex;
+}
+.walletCard__editBtn{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    /* line-height: 24px !important; */
+    display: flex !important;
+    align-items: center !important;
+    color: #D8213B !important;
+    /* margin-bottom: 10px !important; */
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    right: 20px;
+    padding: 0px !important;
+    margin:0px !important;
+}
+.walletCard__activeStatus{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    line-height: 0px !important;
+    display: flex !important;
+    align-items: center !important;
+    color: green !important;
+    /* margin-bottom: 10px !important; */
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 0px !important;
+    margin:0px !important;
+    display: flex;
+    align-items: center;
+}
+.walletCard__activeStatusIcon{
+    height: 6px;
+    width: 6px;
+    border-radius: 50px;
+    background-color: green;
+    margin-right: 2px;
+}
+.walletCard__num {
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 16px !important;
+line-height: 24px !important;
+display: flex !important;
+align-items: center !important;
+color: #12121D !important;
+margin-bottom: 10px !important;
+margin-top: 10px !important;
+}
+.walletCard__title {
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 11px !important;
+line-height: 16px !important;
+display: flex !important;
+align-items: center !important;
+color: rgba(18, 18, 29, 0.3) !important;
+margin-bottom: 4px !important;
+}
+.walletCard__value{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 11px !important;
+line-height: 16px !important;
+display: flex !important;
+align-items: center !important;
+color: rgba(18, 18, 29, 0.8) !important;
+}
+.walletCardPlaceholder{
+    max-width: 315px;
+    width: 100%;
+    padding: 30px 0px !important;
+    background: #FFFFFF;
+box-shadow: 0px 18px 80px rgba(0, 0, 0, 0.08), 0px 4.02054px 17.869px rgba(0, 0, 0, 0.0476886), 0px 1.19702px 5.32008px rgba(0, 0, 0, 0.0323114);
+border-radius: 16px;
+margin-bottom: 10px !important;
+margin-left: auto;
+    margin-right: auto;
+}
+.walletCardPlaceholder__num{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 16px !important;
+display: flex !important;
+align-items: center !important;
+color: #12121D !important;
+margin-bottom: 10px !important;
+height: 30px;
+    background: linear-gradient(90.83deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.06) 47.4%, rgba(0, 0, 0, 0.1) 100%) !important;
+justify-content: flex-end !important;
+align-items: center !important;
+
+}
+.walletCardPlaceholder__num p{
+    margin: 0px;
+        padding: 6px;
+        border-bottom: 1px solid #12121D;
+        font-size: 12px;
+line-height: 16px;
+}
+.walletForm .wallet__formRow{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px !important;
+}
+.walletForm__checkboxWrapper{
+    display: flex;
+    align-items: center;
+}
+.walletForm__checkboxWrapper input{
+     width: 40px;
+}
+.walletForm__checkboxWrapper label{
+  
+   font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #000000 !important;
+}
+.walletForm .wallet__formRow label{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: "Karla";
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #000000 !important;
+}
+.walletForm .wallet__formRow input{
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: 1px solid #DEDEDE;
+    font-family: "Karla";
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #999999 !important;
+}
+.walletForm .wallet__formRow input{
+   outline: none;
+}
+.wallet__row{
+    display: flex;
+    justify-content: center;
+}
+.walletForm__footer{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.walletForm__footer .backBtn{
+    width: 20% !important;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05), 0px 4px 20px rgba(0, 0, 0, 0.03);
+    border-radius: 50px;
+    font-family: "Karla";
+font-style: normal !important;
+font-weight: bold !important; 
+font-size: 14px !important;
+line-height: 20px !important;
+padding: 10px 0px;
+margin-right: 10px !important;
+border: 1px solid !important;
+}
+.walletForm__footer .saveBtn{
+    width: 20% !important;
+    background: #D8213B;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05), 0px 4px 20px rgba(0, 0, 0, 0.03);
+    border-radius: 50px;
+    font-family: "Karla";
+font-style: normal !important;
+font-weight: bold !important; 
+font-size: 14px !important;
+line-height: 20px !important;
+color: #FFFFFF !important;
+padding: 10px 0px;
+
+}
+.walletForm__footer .saveBtn:hover{
+    color: #D8213B !important;
+}
+/* Shipping method component design */
+.ShippingMethodCard__img{
+    max-width: 100px !important;
+    max-height: 100px !important;
+}
+.ShippingMethodCard__info{
+    padding:0px 5px !important;
+}
+.ShippingMethodCard{
+    max-width: 315px;
+    width: 100%;
+    padding: 15px!important;
+    background: #FFFFFF;
+    box-shadow: 0px 18px 80px rgb(0 0 0 / 8%), 0px 4.02054px 17.869px rgb(0 0 0 / 5%), 0px 1.19702px 5.32008px rgb(0 0 0 / 3%);
+    border-radius: 16px;
+    margin-bottom: 10px!important;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+}
+.ShippingMethodCard__title{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 11px !important;
+    line-height: 16px !important;
+    display: flex !important;
+    align-items: center !important;
+    color: rgba(18, 18, 29, 0.3) !important;
+    margin-bottom: 4px !important;
+    margin-left: 10px !important;
+}
+.ShippingMethodCard__value{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    display: flex !important;
+    align-items: center !important;
+    color: rgba(18, 18, 29, 0.8) !important;
+    margin-left: 10px !important;
+
+}
+.MuiSwitch-root{
+  width:52px !important;
+  height: 34px !important;
+}
+.ShippingMethodCard .MuiSwitch-thumb{
+    width: 14px !important;
+    height: 14px !important;
+}
+/* Game Card styling */
+.gameCard{
+    display: flex;
+    justify-content: center;
+}
+.gameCard__innerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gameCard__logo{
+    width: 100px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.gamePlayer__container {
+    display: flex;
+    align-items: center;
+}
+.gamePlayer__containerRight{
+    justify-content: flex-end;
+}
+.gameCard__gameIcon{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: contain;
+}
+.gameCard__title{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 28px !important;
+line-height: 34px !important;
+text-align: center !important;
+text-transform: uppercase !important;
+color: #000000 !important;
+margin-bottom: 12px !important;
+}
+.gameCard__description {
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 12px !important;
+line-height: 17px !important;
+text-align: center !important;
+color: #000000 !important;
+margin-bottom: 40px !important;
+}
+.gamePlayer__profileImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-position: center;
+    background-size: cover;
+   
+}
+.gamePlayer__profileName{
+    text-align: center !important;
+    margin-top: 5px !important;
+}
+.gamePlayer__selectedOption {
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 16px !important;
+text-transform: capitalize !important;
+color: #D8213B !important;
+background: rgba(18, 18, 29, 0.05) !important;
+border-radius: 60px !important;
+padding: 12px 19px;
+margin-left: 8px !important;
+margin-right: 8px !important;
+}
+.gameCard__gamePlayerRow {
+    margin-bottom: 40px !important;
+}
+.gameCard__animation{
+    width:200px;
+    margin-bottom: 40px !important;
+}
+/* game success screen */
+
+.gameSuccessScreen{
+    background-image: url("/images/chatBg.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.gameFailureScreen{
+    background-color: #D8213B;
+    display: flex;
+    justify-content: center;
+}
+.gameSuccessScreen__innerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gameSuccessScreen__winnerName{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 75px !important;
+line-height: 90px !important;
+/* identical to box height */
+
+text-align: center !important;
+text-transform: uppercase !important;
+color: #FFFFFF !important;
+width: 100%;
+text-align: center !important;
+margin-bottom: 20px !important;
+}
+.gameSuccessScreen__winnerBadge{
+    margin-bottom: 16px !important;
+}
+.gameSuccessScreen__winnerProfile{
+    width: 185px !important;
+    height: 185px !important;
+    border-radius: 100px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.gameSuccessScreen__prizeTitle {
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 16px !important;
+line-height: 25px !important;
+/* or 156% */
+
+text-align: center !important;
+
+color: #FFFFFF !important;
+}
+.gameSuccessScreen__prizePrice {
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 16px !important;
+line-height: 25px !important;
+/* or 156% */
+
+text-align: center !important;
+
+color: #FFFFFF !important;
+}
+.gameSuccessScreen__textWrapper{
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+.gameSuccessScreen__text{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 58px !important;
+line-height: 70px !important;
+text-transform: uppercase !important;
+
+color: #FFFFFF !important;
+width: 100%;
+    text-align: center !important;
+}
+.addBid__title{
+    font-family: "Karla" !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  color: #000000 !important;
+  padding-left: 10px !important;
+  margin-bottom: 20px !important;
+  }
+.bidInput{
+    border: 0.5px solid #8C8C8C !important;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: "Karla"!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-size: 14px!important;
+    line-height: 16px!important;
+    color: #999!important;
+    background-color: #fff;
+    margin-bottom: 30px !important;
+}
+.bidInput:focus{
+    outline: none;
+}
+.addBid__submitBtn{
+    font-family: "Karla" !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  color: #FFFFFF !important;
+  cursor: pointer;
+  background-color: #D8213B !important;
+  width: 100%;
+  border-radius: 25px !important;
+  padding: 14px 0px !important;
+  text-transform: capitalize !important;
+  }
+  .addBid__heading{
+    font-family: "Bebas Neue Pro" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 34px !important;
+    line-height: 41px !important;
+    /* identical to box height */
+    
+    text-transform: uppercase !important;
+    
+    color: #000000 !important;
+    margin-left: 10px !important;
+  }
+  .chatdropdown__products{
+      padding:10px !important;
+      position: relative !important;
+      border-bottom: 1px solid #00000015;
+  }
+  .chatdropdown__productsItem{
+      cursor: pointer;
+  }
+  .chatdropdown__read{
+      background-color: #80808036;
+  }
+  .gameBuyNow__Btn{
+    border: 1px solid #FFFFFF !important;
+    border-radius: 86.0027px !important;
+    font-family: "Nunito" !important;
+    font-style: "normal" !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #D8213B !important;
+    padding: 5px 10px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: #FFFFFF !important;
+    text-transform: capitalize !important;
+  }
+  /* accept offer modal */
+  .AcceptOffer__title{
+    font-family: "Karla" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 21px !important;
+    color: #000000 !important;
+    margin-bottom: 30px !important;
+  }
+  .AcceptOffer__accept {
+    width: 80% !important;
+    background: #D8213B !important;
+    box-shadow: 0px 1px 4px rgb(0 0 0 / 5%), 0px 4px 20px rgb(0 0 0 / 3%);
+    border-radius: 50px;
+    font-family: "Karla";
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #FFFFFF !important;
+    padding: 10px 0px;
+    text-transform: capitalize !important;
+    border-radius: 100px !important;
+}
+.AcceptOffer__cancel {
+    width: 80% !important;
+    background: #F3F3F4 !important;
+    box-shadow: 0px 1px 4px rgb(0 0 0 / 5%), 0px 4px 20px rgb(0 0 0 / 3%);
+    border-radius: 50px;
+    font-family: "Karla";
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #D8213B !important;
+    padding: 10px 0px;
+    text-transform: capitalize !important;
+    border-radius: 100px !important;
+}
+/* publicProfile */
+.followWrapper{
+    padding: 10px;;
+}
+.followList_title{
+    font-family: "Bebas Neue Pro"!important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 24px !important;
+line-height: 41px !important;
+/* identical to box height */
+
+text-align: center !important;
+text-transform: uppercase !important;
+text-transform: capitalize !important;
+color: #000000 !important;
+border-bottom: 1px solid #00000015 !important;
+padding-bottom: 10px !important;
+}
+.follow__infoContainer{
+    margin-left: 10px !important;
+    width: 100%;
+}
+.follow__list{
+    padding:10px !important;
+    position: relative !important;
+    /* border-bottom: 1px solid #00000015; */
+}
+.follow__row{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.followList__profileImage{
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 100px !important;
+}
+.followList__name{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 14px !important;
+line-height: 12px !important;
+text-transform: capitalize !important;
+color: #000000 !important;
+}
+.followList__username{
+    font-family: "Karla" !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 12px !important;
+line-height: 14px !important;
+text-transform: capitalize !important;
+color: #202020 !important;
+}
+.publicProfile__name{
+    font-family:"Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 32px !important;
+line-height: 31px !important;
+text-transform: uppercase !important;
+color: #000000 !important;
+margin-bottom: 10px !important;
+display: flex;
+align-items: baseline;
+}
+.publicProfile__name img {
+    height: 20px;
+     margin-left: 7.5px;
+}
+.publicProfile__profileInfoWrapper{
+    padding-bottom: 42px !important;
+    border-bottom: 1px solid #B8B8B8;
+    margin-bottom: 20px !important;
+}
+.publicProfile__profileInfoSection{
+    display: flex;
+  
+}
+.publicProfile__infoMeta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px !important;
+}
+.publicProfile__infoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 27px;
+    flex: 1;
+}
+@media screen and (max-width: 600px){
+    .chatBtn__disabled{
+        padding: 0px !important;
+        font-size: 10px !important;
+    }
+    .chatFooter__BtnWrapper .MuiButton-root{
+        padding: 0px !important;
+        font-size: 10px !important;
+    }
+    .publicProfile__profileInfoSection {
+        flex-direction: column;
+        align-items: center;
+    }
+    .publicProfile__infoContainer{
+        margin-left: 0px;
+        
+    }
+    .publicProfile__infoRow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        
+    }
+    .publicProfile__infoMeta{
+       
+        margin-top: 20px !important;
+    }
+    .publicProfile__infoRow .sellerProfile__status {
+        text-align: center !important;
+    }
+    .publicProfile__infoRow .publicProfile__name {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .buyerProfile__profileInfoSection {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .buyerProfile__infoContainer{
+        margin-left: 0px;
+    }
+    .buyerProfile__infoRow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .buyerProfile__name {
+        margin: 10px 0px !important;
+    }
+}
+/* publicProfile style */
+.publicProfile__settingBtn{
+    border: 1px solid !important;
+    width: 150px !important;
+    border-radius: 50px !important;
+    font-family: "Nunito" !important;
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 19px !important;
+text-align: center !important;
+color: #D8213B !important;
+display: flex;
+justify-content: center;
+align-items: center;
+text-transform: capitalize !important;
+
+}
+.publicProfile__settingBtn:hover{
+    background-color: #D8213B !important;
+    color: #FFFFFF !important;
+}
+@media screen and (min-width: 600px) {
+    .shopAll__mainContainer .mainContainer__heading{
+        color:white;
+        text-align: left;
+         font-size: 80px !important;
+         line-height: 76px !important;
+        
+        /* width:60%; */
+      }
+      .shopAll__mainContainer  .mainContainer__box{
+        margin-left: 100px
+      }
+     .ContainerContent__MainMaxWidth{
+        padding: 0px 64px !important;
+    }
+   
+}
+
+@media screen and (min-width: 1400px) {
+
+    .shopAll__mainContainer  .mainContainer__heading{
+        color:white;
+        padding:0px 0px;
+        text-align: left;
+        font-size: 4.285714285714286rem !important;
+        
+        /* width:60%; */
+      }
+      .shopAll__mainContainer  .mainContainer__box{
+        display: flex;
+        justify-content: center;
+        margin-left: 130px
+      }
+     .ContainerContent__MainMaxWidth{
+        padding: 0px 10vw !important;
+    } 
+}
+.contactus .formRow{
+    padding: 0px !important;
+    }
+    .contactus  .mt-0{
+        margin-bottom:0px!important;
+    }
+    .contactus .success-response{
+        margin-left: 15px !important;
+    }
+@media screen and (max-width: 600px) {
+    .MuiButton-root{
+        max-height: 35px !important;
+    }
+   .AllProducts-productGrid__HeadingContainer-77{
+        
+    align-items: baseline !important;
+    }
+    .AllProducts-productGrid__Heading-76{
+        font-size:24px !important;
+        line-height: 25px !important;
+    }
+    .mob-logo{
+        padding-top: 20px !important;    }
+    .shopAll .shopAll__title{
+    margin-bottom: 5px;
+
+    
+    }
+    .buyerProfile__img{
+    
+    height: 90px;
+    width: 90px;
+}
+.contactus .mt-0 {
+    margin-bottom: 15px!important;
+}
+
+    .mb-center-flex{
+        display: flex;
+        justify-content: center;
+    }
+    .contactus .contactus__socialMediaContainer {
+        margin: 0px 15px !important;
+    }
+    .shopAll .mySwiper2 img{
+        height: 50% !important;
+        width: 50% !important;
+    }
+}
+.firstCap span:first-letter{
+    text-transform: capitalize
+  }
+  .hidden-btn{
+      visibility: hidden;
+  }
+  .seller-icon{
+    
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    height:25px;
+
+  }

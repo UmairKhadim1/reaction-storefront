@@ -1,0 +1,30 @@
+mutation addBidMutation($input: placeBidInput!) {
+  placeBidOnProduct(input: $input) {
+    bidId
+  }
+}
+
+
+mutation addOfferMutation($input: sendOfferInput!) {
+  sendOffer(input: $input) {
+   _id
+   canAccept
+   type
+                            amount {
+                                amount
+                                displayAmount
+                            }
+                            text
+                            createdAt
+                            createdBy
+                            createdFor
+                            sender {
+                                name
+                                image
+                            }
+                            reciever {
+                                name
+                                image
+                            }
+  }
+}

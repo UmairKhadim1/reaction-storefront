@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders disabled 1`] = `
+.c0 {
+  margin-bottom: 17px;
+}
+
+.c1 {
+  opacity: 0;
+  position: absolute;
+}
+
+.c1 + label::after {
+  content: " ";
+}
+
+.c1:checked + label::after {
+  background-image: url("data:image/svg+xml; utf8,%3Csvg%20aria-hidden%3D'true'%20role%3D'img'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20512%20512'%3E%3Cpath%20fill%3D'%233c3c3c'%20d%3D'M173.898%20439.404l-166.4-166.4c-9.997-9.997-9.997-26.206%200-36.204l36.203-36.204c9.997-9.998%2026.207-9.998%2036.204%200L192%20312.69%20432.095%2072.596c9.997-9.997%2026.207-9.997%2036.204%200l36.203%2036.204c9.997%209.997%209.997%2026.206%200%2036.204l-294.4%20294.401c-9.998%209.997-26.207%209.997-36.204-.001z'%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+  display: inline-block;
+  position: absolute;
+  width: 0.875em;
+  height: 0.875em;
+  top: 0.25em;
+  left: 0.3em;
+}
+
+.c1:focus + label::before {
+  outline: rgb(59,153,252) auto 5px;
+}
+
+.c1:disabled + label {
+  opacity: .5;
+}
+
+.c1:disabled + label::before {
+  background: #e6e6e6;
+  opacity: .5;
+}
+
+.c1:disabled + label:hover {
+  cursor: not-allowed;
+}
+
+.c2 {
+  -webkit-font-smoothing: antialiased;
+  color: #505558;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1.25;
+  display: inline-block;
+  line-height: 1.4em;
+  padding-left: 2.2em;
+  position: relative;
+}
+
+.c2:hover {
+  cursor: pointer;
+}
+
+.c2::before,
+.c2::after {
+  position: absolute;
+}
+
+.c2::before {
+  content: " ";
+  border-color: #3c3c3c;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 1.4em;
+  left: 0;
+  top: 0;
+  width: 1.4em;
+}
+
+<div
+  className="c0"
+>
+  <input
+    checked={false}
+    className="c1"
+    disabled={true}
+    id="Checkbox_2"
+    onChange={[Function]}
+    type="checkbox"
+    value="true"
+  />
+  <label
+    className="c2"
+    htmlFor="Checkbox_2"
+  >
+    Disabled
+  </label>
+</div>
+`;
+
+exports[`renders with props 1`] = `
+.c0 {
+  margin-bottom: 17px;
+}
+
+.c1 {
+  opacity: 0;
+  position: absolute;
+}
+
+.c1 + label::after {
+  content: " ";
+}
+
+.c1:checked + label::after {
+  background-image: url("data:image/svg+xml; utf8,%3Csvg%20aria-hidden%3D'true'%20role%3D'img'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20512%20512'%3E%3Cpath%20fill%3D'%233c3c3c'%20d%3D'M173.898%20439.404l-166.4-166.4c-9.997-9.997-9.997-26.206%200-36.204l36.203-36.204c9.997-9.998%2026.207-9.998%2036.204%200L192%20312.69%20432.095%2072.596c9.997-9.997%2026.207-9.997%2036.204%200l36.203%2036.204c9.997%209.997%209.997%2026.206%200%2036.204l-294.4%20294.401c-9.998%209.997-26.207%209.997-36.204-.001z'%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+  display: inline-block;
+  position: absolute;
+  width: 0.875em;
+  height: 0.875em;
+  top: 0.25em;
+  left: 0.3em;
+}
+
+.c1:focus + label::before {
+  outline: rgb(59,153,252) auto 5px;
+}
+
+.c1:disabled + label {
+  opacity: .5;
+}
+
+.c1:disabled + label::before {
+  background: #e6e6e6;
+  opacity: .5;
+}
+
+.c1:disabled + label:hover {
+  cursor: not-allowed;
+}
+
+.c2 {
+  -webkit-font-smoothing: antialiased;
+  color: #505558;
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  -webkit-letter-spacing: .02em;
+  -moz-letter-spacing: .02em;
+  -ms-letter-spacing: .02em;
+  letter-spacing: .02em;
+  line-height: 1.25;
+  display: inline-block;
+  line-height: 1.4em;
+  padding-left: 2.2em;
+  position: relative;
+}
+
+.c2:hover {
+  cursor: pointer;
+}
+
+.c2::before,
+.c2::after {
+  position: absolute;
+}
+
+.c2::before {
+  content: " ";
+  border-color: #3c3c3c;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 1.4em;
+  left: 0;
+  top: 0;
+  width: 1.4em;
+}
+
+<div
+  className="c0"
+>
+  <input
+    checked={false}
+    className="c1"
+    disabled={false}
+    id="Checkbox_1"
+    onChange={[Function]}
+    type="checkbox"
+    value="true"
+  />
+  <label
+    className="c2"
+    htmlFor="Checkbox_1"
+  >
+    Label
+  </label>
+</div>
+`;

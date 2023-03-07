@@ -1,0 +1,71 @@
+mutation addAccountAddressBookEntryMutation($input: AddAccountAddressBookEntryInput!) {
+  addAccountAddressBookEntry(input: $input) {
+    address {
+      _id
+      address1
+      address2
+      city
+      company
+      country
+      fullName
+      isBillingDefault
+      isCommercial
+      isShippingDefault
+      phone
+      postal
+      region
+      metafields {
+        key
+        value
+      }
+    }
+  }
+}
+
+mutation updateAccountAddressBookEntryMutation($input: UpdateAccountAddressBookEntryInput!) {
+  updateAccountAddressBookEntry(input: $input) {
+    address {
+      _id
+      address1
+      address2
+      city
+      company
+      country
+      fullName
+      isBillingDefault
+      isCommercial
+      isShippingDefault
+      phone
+      postal
+      region
+       metafields {
+        key
+        value
+      }
+    }
+  }
+}
+
+mutation removeAccountAddressBookEntryMutation($input: RemoveAccountAddressBookEntryInput!) {
+  removeAccountAddressBookEntry(input: $input) {
+    address {
+      _id
+      address1
+      address2
+      city
+      company
+      country
+      fullName
+      isBillingDefault
+      isCommercial
+      isShippingDefault
+      phone
+      postal
+      region
+       metafields {
+        key
+        value
+      }
+    }
+  }
+}

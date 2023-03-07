@@ -1,0 +1,71 @@
+/* .HeaderContainer__MainMaxWidth{
+    padding: 0px 24px !important;
+}
+@media screen and (min-width: 600px) {
+    .HeaderContainer__MainMaxWidth{
+        padding: 0px 64px !important;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .HeaderContainer__MainMaxWidth{
+        padding: 0px 84px !important;
+    }
+} */
+.notification__popOver{
+    top: 3px !important;
+}
+.Notifications{
+    border-radius: 15px !important;
+    height: auto;
+    max-height: 400px;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 300px;
+}
+.Notifications .CB__MH__productImg{
+    width: 40px !important;
+    height: 40px !important;
+    object-fit: cover;
+    border-radius: 100px !important;
+}
+.Notifications .CB__MH__infoContainer{
+     width: 1000%;
+}
+.Notification__heading{
+    font-family: "Bebas Neue Pro" !important;
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 16px !important;
+line-height: 16px !important;
+color: #000000 !important;
+padding: 15px !important;
+border-bottom: 1px solid #00000015;
+}
+.Notification{
+    border-bottom: 1px solid #00000015;
+   
+    cursor: pointer;
+    padding: 15px !important;
+}
+.Notification__icon{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px !important;
+}
+.noNotification{
+    font-family: "Bebas Neue Pro"!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-size: 24px!important;
+    line-height: 40px!important;
+    text-transform: uppercase!important;
+    color: #000!important;
+    text-transform: capitalize!important;
+}
+.noNotificatonDot .MuiBadge-dot{
+    display: none !important;
+}
+/* .chatBox__messageHeader__right .MuiBadge-anchorOriginTopRightRectangle{
+    top: 5px !important;
+    right: 10px !important;
+} */

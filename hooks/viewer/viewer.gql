@@ -1,0 +1,171 @@
+query viewer {
+  viewer {
+    _id
+          username
+           userId
+           identityVerified
+           AvailableFulfillmentMethods
+           AccountBook {
+             _id
+             AccountTitle
+             swiftCode
+             AccountNo
+             isActive
+           }
+           productVariants {
+             _id
+              slug
+             isDeleted
+             ancestorId
+             parentId
+attributeLabel
+metafields {
+  key
+  value
+}
+createdAt
+height
+index
+shop {
+  _id
+}
+isDeleted
+isVisible
+length
+media {
+  URLs {
+    large
+medium
+original
+small
+thumbnail
+  }
+  priority
+  productId
+  variantId
+}
+minOrderQuantity
+optionTitle
+title
+pricing {
+displayPrice
+maxPrice
+minPrice
+price
+}
+taxDescription
+uploadedBy {
+  name
+image
+userId
+}
+
+price
+           }
+    addressBook {
+      edges {
+        node {
+          _id
+          address1
+          address2
+          city
+          company
+          country
+          fullName
+          isBillingDefault
+          isCommercial
+          isShippingDefault
+          phone
+          postal
+          region
+           metafields {
+                     key
+                  value
+                }
+        }
+      }
+    }
+    emailRecords {
+      address
+    }
+    name
+    picture
+    primaryEmailAddress
+   
+       orderFulfillment {
+      _id
+      createdAt
+      referenceId
+      email
+      shipmentLabel {
+        uri
+      }
+      fulfillmentGroups{
+        _id
+        data {
+      ... on ShippingOrderFulfillmentGroupData {
+        shippingAddress{
+          address1
+          address2
+          city
+          country
+          region
+          postal
+          phone
+        }
+      }
+      		
+          __typename
+        }
+        items{
+          nodes{
+            parcel{
+              width
+              height
+              length
+              massUnit
+            }
+            _id
+            title
+            quantity
+            productVendor
+            optionTitle
+            price{
+              displayAmount
+              amount
+            }
+            status
+          }
+        }
+         selectedFulfillmentOption {
+          fulfillmentMethod {
+            displayName
+            group
+          }
+        }
+        summary{
+          total {
+            displayAmount
+          }
+        }
+        
+             }
+      payments {
+        _id
+        method {
+          displayName
+        }
+        status
+      }
+      status
+      shop {
+        _id
+      }
+      referenceId
+      account{
+        name
+      }
+    }
+    
+  }
+}

@@ -1,0 +1,140 @@
+.login__logoBox{
+    padding: 20px 0px;
+    border: none;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+  }
+.login__closeButton{
+    position: absolute !important;
+    right: 25px;
+    top: 22px;
+    background-color: #F0F0F0 !important;
+    height: 34px;
+    width: 34px;
+
+  }
+.PhoneInputInput{
+    border: none !important;
+    padding: 3px 0px !important;
+}
+.PhoneInputInput:focus{
+    outline: none !important;
+}
+.formRow{
+    padding:10px 0px;
+  }
+  .formRow>.MuiTextField-root>.MuiInput-formControl>.MuiInput-input{
+      border: 1px solid #DEDEDE !important;
+      padding-left: 15px;
+      border-radius: 25px;
+  }
+  .formRow>.MuiTextField-root>.MuiInput-formControl::before{
+    border-bottom: none !important;
+}
+.formRow>.MuiTextField-root>.MuiInput-formControl::after{
+    border-bottom: none;
+}
+.login__inputLabel{
+    font-size:12px !important;
+    font-weight:500 !important;
+    padding:5px 15px;
+    color: #000000 !important;
+    text-align: center;
+  }
+.login__footerText{
+   padding-top: 10px;
+   padding-bottom: 10px;
+    padding-left:15px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000000 !important;
+    text-align: center;
+ }
+.login__footerText>span{
+   color:#D8213B;
+   cursor: pointer;
+}
+.login__innerContainer{
+    margin-top: 30px;
+    padding: 0px 20px;
+    margin-bottom: 30px;
+}
+.login__headerTitle{
+    padding-left:15px;
+    text-align: center;
+ }
+.login__footer{
+    display: flex;
+    padding: 16px 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer__loginBtn{
+    background-color: #D8213B !important;
+    padding: 5px 30px !important;
+    border-radius: 86px !important;
+    color: white !important;
+    margin-right: 20px !important;
+  }
+  .footer__loginBtn:hover{
+    color: #D8213B !important;
+    background-color: white !important;
+  }
+.login__forgotPassword{
+    
+    padding-left: 15px;
+    color:#D8213B !important;
+    cursor: pointer;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.login__leftCol{
+  position: relative;
+}
+.loginImgShoesLogo{
+  position: absolute;
+  left: 40px;
+  top: 49px;
+}
+@media screen and (min-width: 964px) {
+    .login__logoBox{
+        
+        justify-content: flex-start;
+      }
+      .login__closeButton{
+        height: 44px;
+        width: 44px;
+    
+      }
+    .login__innerContainer{
+        margin-top: 30px;
+        padding: 0px 80px !important;
+        margin-bottom: 0px;
+    }
+    .login__headerTitle{
+         padding-left:15px;
+        text-align: left;
+     }
+    .login__inputLabel{
+        text-align: left;
+    }
+    .login__forgotPassword{
+    
+        padding-left: 15px;
+        color:#D8213B !important;
+        cursor: pointer;
+        text-align: left;
+    }
+    .login__footer{
+     
+        justify-content: flex-start;
+      }
+      .footer__loginBtn{
+        padding: 10px 30px;
+      }
+    .login__footerText{
+        text-align: left;
+    }
+
+  }

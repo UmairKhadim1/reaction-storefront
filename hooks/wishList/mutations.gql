@@ -1,0 +1,21 @@
+mutation createWishListMutation($input: CreateCartInput!) {
+  createWishlist(input: $input) {
+     wishlist {
+       _id
+       account {
+         userId
+       }
+     }
+  }
+}
+
+mutation addWishListMutation($input: AddWishlistItemsInput!) {
+  addWishlistItems(input: $input) {
+    wishList {
+      _id
+      account {
+        userId
+      }
+    }
+  }
+}
